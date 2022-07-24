@@ -1,15 +1,18 @@
 use std::fs;
 pub fn contents(filename: &str) -> String {
-    std::fs::read_to_string(filename).expect("File Not Found")
+    fs::read_to_string(filename).expect("File Not Found")
 }
 pub fn clean(contents: String) -> String {
     let mut lines = contents.lines();
-    for i in 0..=10 {
+    for _ in 0..=10 {
         lines.next();
     }
     lines.collect()
 }
-pub fn split<'a>(contents: &str) -> Vec<&'a str> {
+pub fn split<'a>(contents: &'a str) -> Vec<&'a str> {
+    for pli in contents.split(' ') {
+        println!("{}", pli);
+    }
     vec!["1.d4", "1.e4"]
 }
 #[cfg(test)]
