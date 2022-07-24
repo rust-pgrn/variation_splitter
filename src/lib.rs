@@ -16,15 +16,14 @@ pub fn split(contents: String) -> Vec<Vec<String>> {
     variations.push(Vec::new());
     for pli in contents.split(' ') {
         //println!("{}", pli);
-        if pli.contains("...") && pli.contains("(") {
+        if pli.contains("...") && pli.contains('(') {
             //Creates new array with current moves
             variations.push(variations[i].clone());
             //increments i to work on next array/variation
             i += j;
             //Removes last 3 moves, which will get replaced by the current pli
             variations[i].pop();
-            variations[i].pop();
-            variations[i].pop();
+            //variations[i].pop();
         } else if pli.contains('(') {
             //Creates new array with current moves
             variations.push(variations[i].clone());
@@ -36,7 +35,7 @@ pub fn split(contents: String) -> Vec<Vec<String>> {
             variations[i].push(pli.replace('(', ""));
         } else if pli.contains(')') {
             variations[i].push(pli.replace(')', ""));
-            i -= 1;
+            i -= j;
             j += 1;
         } else if pli.contains("...") && !pli.contains('(') {
         } else {
