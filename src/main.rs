@@ -1,5 +1,6 @@
 mod lib;
 fn main() {
     let contents = lib::contents("pgn.txt");
-    println!("{:?}", lib::split(contents));
+    let contents = lib::clean(contents);
+    lib::split(contents);
 }
