@@ -20,57 +20,52 @@ pub fn split(contents: String, filename: &str) -> Vec<Vec<String>> {
     let mut buf = String::new();
     for (len, pli) in contents.split(' ').enumerate() {
         if pli.contains('(') {
-            //Creates new array with current moves
-            variations.push(variations[i].clone());
+            variations.insert(i, variations[i].clone());
+            i += 1;
             variations[i].pop();
-            //if len < 470 && len > 380 {
             buf.push_str(&format!("Pli: {}\n", pli));
             buf.push_str(&format!("Variation: {:?}\n", variations[i]));
             buf.push_str(&format!("Working on variation: {}\n", i + 1));
             buf.push_str(&format!("Number of variations: {}\n", variations.len()));
             buf.push_str(&format!("Pli Number: {}\n", len + 1));
             buf.push_str("\n\n");
-            println!("{}", &buf);
-            //}
         } else if pli.contains(')') {
             variations[i].push(pli.replace(')', ""));
-            //if len < 470 && len > 380 {
             buf.push_str(&format!("Pli: {}\n", pli));
             buf.push_str(&format!("Variation: {:?}\n", variations[i]));
             buf.push_str(&format!("Working on variation: {}\n", i + 1));
             buf.push_str(&format!("Number of variations: {}\n", variations.len()));
             buf.push_str(&format!("Pli Number: {}\n", len + 1));
-            //}
+            buf.push_str("\n\n");
+            i -= 1;
             buf.push_str(&format!("Now Working on variation: {}\n", i + 1));
-            buf.push_str("\n\n");
-            println!("{}", &buf);
-        } else if pli.contains("...") | pli.contains('$') {
-            //if len < 470 && len > 380 {
+        } else if pli == ")" {
             buf.push_str(&format!("Pli: {}\n", pli));
             buf.push_str(&format!("Variation: {:?}\n", variations[i]));
             buf.push_str(&format!("Working on variation: {}\n", i + 1));
             buf.push_str(&format!("Number of variations: {}\n", variations.len()));
             buf.push_str(&format!("Pli Number: {}\n", len + 1));
             buf.push_str("\n\n");
-            println!("{}", &buf);
-            //}
+            i -= 1;
+            buf.push_str(&format!("Now Working on variation: {}\n", i + 1));
+        } else if pli.contains("...") | pli.contains('$') {
+            buf.push_str(&format!("Pli: {}\n", pli));
+            buf.push_str(&format!("Variation: {:?}\n", variations[i]));
+            buf.push_str(&format!("Working on variation: {}\n", i + 1));
+            buf.push_str(&format!("Number of variations: {}\n", variations.len()));
+            buf.push_str(&format!("Pli Number: {}\n", len + 1));
+            buf.push_str("\n\n");
         } else {
             variations[i].push(pli.to_string());
-            //if len < 470 && len >380 {
             buf.push_str(&format!("Pli: {}\n", pli));
             buf.push_str(&format!("Variation: {:?}\n", variations[i]));
             buf.push_str(&format!("Working on variation: {}\n", i + 1));
             buf.push_str(&format!("Number of variations: {}\n", variations.len()));
             buf.push_str(&format!("Pli Number: {}\n", len + 1));
             buf.push_str("\n\n");
-            println!("{}", &buf);
-            //}
         }
     }
-    //println!("{:?}", variations);
-    //println!("{}", variations.len());
     let _s = convert(&variations);
-    //println!("{}", buf);
     fs::write(filename, buf).unwrap();
     variations
 }
