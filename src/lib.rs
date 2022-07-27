@@ -87,17 +87,3 @@ pub fn convert(v: &Vec<Vec<String>>) -> String {
     }
     s
 }
-#[cfg(test)]
-mod tests {
-    //use super::*;
-    #[test]
-    fn test_contents() {}
-    #[test]
-    fn test_clean() {}
-    #[test]
-    fn test_split() {
-        //1.d4(1.e4) =
-        //[1.d4,1.e4]
-        //assert_eq!(split("1.d4(1.e4)"), vec!["1.d4", "1.e4"]);
-    }
-}
