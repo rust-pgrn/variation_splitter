@@ -43,6 +43,7 @@ pub fn split(contents: String, filename: &str) -> Vec<Vec<String>> {
             buf.push_str(&format!("Pli Number: {}\n", len + 1));
             i -= 1;
             buf.push_str(&format!("Now Working on variation: {}\n", i + 1));
+            buf.push_str(&format!("Variation Now: {:?}\n", variations[i]));
             buf.push_str("\n\n");
         } else if pli == ")" {
             buf.push_str(&format!("Pli: {}\n", pli));
@@ -51,9 +52,10 @@ pub fn split(contents: String, filename: &str) -> Vec<Vec<String>> {
             buf.push_str(&format!("Working on variation: {}\n", i + 1));
             buf.push_str(&format!("Number of variations: {}\n", variations.len()));
             buf.push_str(&format!("Pli Number: {}\n", len + 1));
-            buf.push_str("\n\n");
             i -= 1;
             buf.push_str(&format!("Now Working on variation: {}\n", i + 1));
+            buf.push_str(&format!("Variation Now: {:?}\n", variations[i]));
+            buf.push_str("\n\n");
         } else if pli.contains("...") | pli.contains('$') {
             buf.push_str(&format!("Pli: {}\n", pli));
             buf.push_str("Action: Nothing\n");

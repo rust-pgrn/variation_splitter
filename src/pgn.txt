@@ -237,6 +237,7 @@ Working on variation: 4
 Number of variations: 4
 Pli Number: 30
 Now Working on variation: 3
+Variation Now: ["1.", "d4", "Nf6", "2.", "c4", "e6", "3.", "Nf3", "d5", "4.", "g3", "Be7", "5.", "Bg2", "O-O", "6.", "Qc2", "c5", "7.", "dxc5", "Qa5+", "8.", "Nc3"]
 
 
 Pli: (8.
@@ -310,6 +311,7 @@ Working on variation: 4
 Number of variations: 5
 Pli Number: 39
 Now Working on variation: 3
+Variation Now: ["1.", "d4", "Nf6", "2.", "c4", "e6", "3.", "Nf3", "d5", "4.", "g3", "Be7", "5.", "Bg2", "O-O", "6.", "Qc2", "c5", "7.", "dxc5", "Qa5+", "8.", "Nc3"]
 
 
 Pli: 8...
@@ -423,6 +425,7 @@ Working on variation: 3
 Number of variations: 5
 Pli Number: 53
 Now Working on variation: 2
+Variation Now: ["1.", "d4", "Nf6", "2.", "c4", "e6", "3.", "Nf3", "d5", "4.", "g3", "Be7", "5.", "Bg2", "O-O", "6.", "Qc2", "c5", "7.", "O-O"]
 
 
 Pli: 7...
@@ -552,6 +555,7 @@ Working on variation: 3
 Number of variations: 6
 Pli Number: 69
 Now Working on variation: 2
+Variation Now: ["1.", "d4", "Nf6", "2.", "c4", "e6", "3.", "Nf3", "d5", "4.", "g3", "Be7", "5.", "Bg2", "O-O", "6.", "Qc2", "c5", "7.", "O-O", "cxd4", "8.", "Nxd4", "Nc6", "9.", "Nxc6", "bxc6", "10.", "b3"]
 
 
 Pli: 10...
@@ -609,6 +613,7 @@ Working on variation: 2
 Number of variations: 6
 Pli Number: 76
 Now Working on variation: 1
+Variation Now: ["1.", "d4", "Nf6", "2.", "c4", "e6", "3.", "Nf3", "d5", "4.", "g3", "Be7", "5.", "Bg2", "O-O", "6.", "O-O"]
 
 
 Pli: (6.
@@ -906,6 +911,7 @@ Working on variation: 4
 Number of variations: 9
 Pli Number: 113
 Now Working on variation: 3
+Variation Now: ["1.", "d4", "Nf6", "2.", "c4", "e6", "3.", "Nf3", "d5", "4.", "g3", "Be7", "5.", "Bg2", "O-O", "6.", "Nc3", "dxc4", "7.", "Ne5", "c5", "8.", "dxc5", "Qxd1+", "9.", "Nxd1", "Bxc5", "10.", "O-O"]
 
 
 Pli: (10.
@@ -931,6 +937,7 @@ Working on variation: 4
 Number of variations: 10
 Pli Number: 116
 Now Working on variation: 3
+Variation Now: ["1.", "d4", "Nf6", "2.", "c4", "e6", "3.", "Nf3", "d5", "4.", "g3", "Be7", "5.", "Bg2", "O-O", "6.", "Nc3", "dxc4", "7.", "Ne5", "c5", "8.", "dxc5", "Qxd1+", "9.", "Nxd1", "Bxc5", "10.", "O-O"]
 
 
 Pli: 10...
@@ -988,6 +995,7 @@ Working on variation: 4
 Number of variations: 11
 Pli Number: 123
 Now Working on variation: 3
+Variation Now: ["1.", "d4", "Nf6", "2.", "c4", "e6", "3.", "Nf3", "d5", "4.", "g3", "Be7", "5.", "Bg2", "O-O", "6.", "Nc3", "dxc4", "7.", "Ne5", "c5", "8.", "dxc5", "Qxd1+", "9.", "Nxd1", "Bxc5", "10.", "O-O", "Nc6", "11.", "Bxc6"]
 
 
 Pli: (11.
@@ -1037,6 +1045,7 @@ Working on variation: 4
 Number of variations: 12
 Pli Number: 129
 Now Working on variation: 3
+Variation Now: ["1.", "d4", "Nf6", "2.", "c4", "e6", "3.", "Nf3", "d5", "4.", "g3", "Be7", "5.", "Bg2", "O-O", "6.", "Nc3", "dxc4", "7.", "Ne5", "c5", "8.", "dxc5", "Qxd1+", "9.", "Nxd1", "Bxc5", "10.", "O-O", "Nc6", "11.", "Bxc6"]
 
 
 Pli: 11...
@@ -1174,6 +1183,7 @@ Working on variation: 3
 Number of variations: 12
 Pli Number: 146
 Now Working on variation: 2
+Variation Now: ["1.", "d4", "Nf6", "2.", "c4", "e6", "3.", "Nf3", "d5", "4.", "g3", "Be7", "5.", "Bg2", "O-O", "6.", "Nc3", "dxc4", "7.", "O-O"]
 
 
 Pli: 7...
@@ -1247,6 +1257,7 @@ Working on variation: 3
 Number of variations: 13
 Pli Number: 155
 Now Working on variation: 2
+Variation Now: ["1.", "d4", "Nf6", "2.", "c4", "e6", "3.", "Nf3", "d5", "4.", "g3", "Be7", "5.", "Bg2", "O-O", "6.", "Nc3", "dxc4", "7.", "O-O", "Nc6", "8.", "e4"]
 
 
 Pli: 8...
@@ -1304,6 +1315,7 @@ Working on variation: 3
 Number of variations: 14
 Pli Number: 162
 Now Working on variation: 2
+Variation Now: ["1.", "d4", "Nf6", "2.", "c4", "e6", "3.", "Nf3", "d5", "4.", "g3", "Be7", "5.", "Bg2", "O-O", "6.", "Nc3", "dxc4", "7.", "O-O", "Nc6", "8.", "e4", "Rb8", "9.", "Be3"]
 
 
 Pli: 9...
@@ -1321,6 +1333,7 @@ Working on variation: 2
 Number of variations: 14
 Pli Number: 164
 Now Working on variation: 1
+Variation Now: ["1.", "d4", "Nf6", "2.", "c4", "e6", "3.", "Nf3", "d5", "4.", "g3", "Be7", "5.", "Bg2", "O-O", "6.", "O-O"]
 
 
 Pli: (6.
@@ -1498,6 +1511,7 @@ Working on variation: 4
 Number of variations: 17
 Pli Number: 186
 Now Working on variation: 3
+Variation Now: ["1.", "d4", "Nf6", "2.", "c4", "e6", "3.", "Nf3", "d5", "4.", "g3", "Be7", "5.", "Bg2", "O-O", "6.", "Nbd2", "b6", "7.", "O-O", "Bb7", "8.", "b3", "Nbd7", "9.", "Bb2", "c5", "10.", "e3"]
 
 
 Pli: 10...
@@ -1539,6 +1553,7 @@ Working on variation: 3
 Number of variations: 17
 Pli Number: 191
 Now Working on variation: 2
+Variation Now: ["1.", "d4", "Nf6", "2.", "c4", "e6", "3.", "Nf3", "d5", "4.", "g3", "Be7", "5.", "Bg2", "O-O", "6.", "Nbd2", "b6", "7.", "O-O", "Bb7", "8.", "cxd5"]
 
 
 Pli: (8.
@@ -1564,6 +1579,7 @@ Working on variation: 3
 Number of variations: 18
 Pli Number: 194
 Now Working on variation: 2
+Variation Now: ["1.", "d4", "Nf6", "2.", "c4", "e6", "3.", "Nf3", "d5", "4.", "g3", "Be7", "5.", "Bg2", "O-O", "6.", "Nbd2", "b6", "7.", "O-O", "Bb7", "8.", "cxd5"]
 
 
 Pli: (8.
@@ -1653,6 +1669,7 @@ Working on variation: 4
 Number of variations: 20
 Pli Number: 205
 Now Working on variation: 3
+Variation Now: ["1.", "d4", "Nf6", "2.", "c4", "e6", "3.", "Nf3", "d5", "4.", "g3", "Be7", "5.", "Bg2", "O-O", "6.", "Nbd2", "b6", "7.", "O-O", "Bb7", "8.", "Ne5", "Nbd7", "9.", "Ndf3"]
 
 
 Pli: (6.
@@ -1750,6 +1767,7 @@ Working on variation: 5
 Number of variations: 22
 Pli Number: 217
 Now Working on variation: 4
+Variation Now: ["1.", "d4", "Nf6", "2.", "c4", "e6", "3.", "Nf3", "d5", "4.", "g3", "Be7", "5.", "Bg2", "O-O", "6.", "Nbd2", "b6", "7.", "O-O", "Bb7", "8.", "Ne5", "Nbd7", "9.", "cxd5", "exd5", "7.", "O-O", "c6", "8.", "Nc3", "Bf5"]
 
 
 Pli: 6...
@@ -1919,6 +1937,7 @@ Working on variation: 6
 Number of variations: 24
 Pli Number: 238
 Now Working on variation: 5
+Variation Now: ["1.", "d4", "Nf6", "2.", "c4", "e6", "3.", "Nf3", "d5", "4.", "g3", "Be7", "5.", "Bg2", "O-O", "6.", "Nbd2", "b6", "7.", "O-O", "Bb7", "8.", "Ne5", "Nbd7", "9.", "cxd5", "exd5", "7.", "O-O", "c6", "8.", "Nc3", "Bf5", "dxc4", "7.", "Ne5", "Nc6"]
 
 
 Pli: 8.
@@ -2136,6 +2155,7 @@ Working on variation: 8
 Number of variations: 27
 Pli Number: 265
 Now Working on variation: 7
+Variation Now: ["1.", "d4", "Nf6", "2.", "c4", "e6", "3.", "Nf3", "d5", "4.", "g3", "Be7", "5.", "Bg2", "O-O", "6.", "Nbd2", "b6", "7.", "O-O", "Bb7", "8.", "Ne5", "Nbd7", "9.", "cxd5", "exd5", "7.", "O-O", "c6", "8.", "Nc3", "Bf5", "dxc4", "7.", "Ne5", "Nc6", "8.", "Bxc6", "bxc6", "9.", "Nxc6", "Qe8", "10.", "Nxe7+", "Qxe7", "11.", "Qc2", "e5"]
 
 
 Pli: 12.
@@ -2185,6 +2205,7 @@ Working on variation: 7
 Number of variations: 27
 Pli Number: 271
 Now Working on variation: 6
+Variation Now: ["1.", "d4", "Nf6", "2.", "c4", "e6", "3.", "Nf3", "d5", "4.", "g3", "Be7", "5.", "Bg2", "O-O", "6.", "Nbd2", "b6", "7.", "O-O", "Bb7", "8.", "Ne5", "Nbd7", "9.", "cxd5", "exd5", "7.", "O-O", "c6", "8.", "Nc3", "Bf5", "dxc4", "7.", "Ne5", "Nc6", "8.", "Bxc6", "bxc6", "9.", "Nxc6", "Qe8", "10.", "Nxe7+", "Qxe7", "11.", "Qa4"]
 
 
 Pli: 11...
@@ -2314,6 +2335,7 @@ Working on variation: 7
 Number of variations: 28
 Pli Number: 287
 Now Working on variation: 6
+Variation Now: ["1.", "d4", "Nf6", "2.", "c4", "e6", "3.", "Nf3", "d5", "4.", "g3", "Be7", "5.", "Bg2", "O-O", "6.", "Nbd2", "b6", "7.", "O-O", "Bb7", "8.", "Ne5", "Nbd7", "9.", "cxd5", "exd5", "7.", "O-O", "c6", "8.", "Nc3", "Bf5", "dxc4", "7.", "Ne5", "Nc6", "8.", "Bxc6", "bxc6", "9.", "Nxc6", "Qe8", "10.", "Nxe7+", "Qxe7", "11.", "Qa4", "e5", "12.", "dxe5", "Qxe5", "13.", "Qxc4", "Be6", "14.", "Qd3"]
 
 
 Pli: 14...
@@ -2379,6 +2401,7 @@ Working on variation: 6
 Number of variations: 28
 Pli Number: 295
 Now Working on variation: 5
+Variation Now: ["1.", "d4", "Nf6", "2.", "c4", "e6", "3.", "Nf3", "d5", "4.", "g3", "Be7", "5.", "Bg2", "O-O", "6.", "Nbd2", "b6", "7.", "O-O", "Bb7", "8.", "Ne5", "Nbd7", "9.", "cxd5", "exd5", "7.", "O-O", "c6", "8.", "Nc3", "Bf5", "dxc4", "7.", "Ne5", "Nc6", "8.", "Nxc6"]
 
 
 Pli: 8...
@@ -2460,6 +2483,7 @@ Working on variation: 6
 Number of variations: 29
 Pli Number: 305
 Now Working on variation: 5
+Variation Now: ["1.", "d4", "Nf6", "2.", "c4", "e6", "3.", "Nf3", "d5", "4.", "g3", "Be7", "5.", "Bg2", "O-O", "6.", "Nbd2", "b6", "7.", "O-O", "Bb7", "8.", "Ne5", "Nbd7", "9.", "cxd5", "exd5", "7.", "O-O", "c6", "8.", "Nc3", "Bf5", "dxc4", "7.", "Ne5", "Nc6", "8.", "Nxc6", "bxc6", "9.", "Na3"]
 
 
 Pli: 9...
@@ -2541,6 +2565,7 @@ Working on variation: 6
 Number of variations: 30
 Pli Number: 315
 Now Working on variation: 5
+Variation Now: ["1.", "d4", "Nf6", "2.", "c4", "e6", "3.", "Nf3", "d5", "4.", "g3", "Be7", "5.", "Bg2", "O-O", "6.", "Nbd2", "b6", "7.", "O-O", "Bb7", "8.", "Ne5", "Nbd7", "9.", "cxd5", "exd5", "7.", "O-O", "c6", "8.", "Nc3", "Bf5", "dxc4", "7.", "Ne5", "Nc6", "8.", "Nxc6", "bxc6", "9.", "Na3", "Bxa3", "10.", "bxa3", "Ba6", "11.", "Qd2"]
 
 
 Pli: 11...
@@ -2630,6 +2655,7 @@ Working on variation: 5
 Number of variations: 30
 Pli Number: 326
 Now Working on variation: 4
+Variation Now: ["1.", "d4", "Nf6", "2.", "c4", "e6", "3.", "Nf3", "d5", "4.", "g3", "Be7", "5.", "Bg2", "O-O", "6.", "Nbd2", "b6", "7.", "O-O", "Bb7", "8.", "Ne5", "Nbd7", "9.", "cxd5", "exd5", "7.", "O-O", "c6", "8.", "Nc3", "Bf5", "dxc4", "7.", "Qc2"]
 
 
 Pli: (7.
@@ -2695,6 +2721,7 @@ Working on variation: 5
 Number of variations: 31
 Pli Number: 334
 Now Working on variation: 4
+Variation Now: ["1.", "d4", "Nf6", "2.", "c4", "e6", "3.", "Nf3", "d5", "4.", "g3", "Be7", "5.", "Bg2", "O-O", "6.", "Nbd2", "b6", "7.", "O-O", "Bb7", "8.", "Ne5", "Nbd7", "9.", "cxd5", "exd5", "7.", "O-O", "c6", "8.", "Nc3", "Bf5", "dxc4", "7.", "Qc2"]
 
 
 Pli: (7.
@@ -2784,6 +2811,7 @@ Working on variation: 6
 Number of variations: 33
 Pli Number: 345
 Now Working on variation: 5
+Variation Now: ["1.", "d4", "Nf6", "2.", "c4", "e6", "3.", "Nf3", "d5", "4.", "g3", "Be7", "5.", "Bg2", "O-O", "6.", "Nbd2", "b6", "7.", "O-O", "Bb7", "8.", "Ne5", "Nbd7", "9.", "cxd5", "exd5", "7.", "O-O", "c6", "8.", "Nc3", "Bf5", "dxc4", "7.", "Na3", "Bxa3"]
 
 
 Pli: 8.
@@ -2849,6 +2877,7 @@ Working on variation: 6
 Number of variations: 34
 Pli Number: 353
 Now Working on variation: 5
+Variation Now: ["1.", "d4", "Nf6", "2.", "c4", "e6", "3.", "Nf3", "d5", "4.", "g3", "Be7", "5.", "Bg2", "O-O", "6.", "Nbd2", "b6", "7.", "O-O", "Bb7", "8.", "Ne5", "Nbd7", "9.", "cxd5", "exd5", "7.", "O-O", "c6", "8.", "Nc3", "Bf5", "dxc4", "7.", "Na3", "Bxa3", "8.", "bxa3", "Bd7"]
 
 
 Pli: 9.
@@ -2938,6 +2967,7 @@ Working on variation: 6
 Number of variations: 35
 Pli Number: 364
 Now Working on variation: 5
+Variation Now: ["1.", "d4", "Nf6", "2.", "c4", "e6", "3.", "Nf3", "d5", "4.", "g3", "Be7", "5.", "Bg2", "O-O", "6.", "Nbd2", "b6", "7.", "O-O", "Bb7", "8.", "Ne5", "Nbd7", "9.", "cxd5", "exd5", "7.", "O-O", "c6", "8.", "Nc3", "Bf5", "dxc4", "7.", "Na3", "Bxa3", "8.", "bxa3", "Bd7", "9.", "Ne5", "Bc6", "10.", "Nxc6", "Nxc6", "11.", "Bb2"]
 
 
 Pli: 7...
@@ -3155,6 +3185,7 @@ Working on variation: 8
 Number of variations: 38
 Pli Number: 391
 Now Working on variation: 7
+Variation Now: ["1.", "d4", "Nf6", "2.", "c4", "e6", "3.", "Nf3", "d5", "4.", "g3", "Be7", "5.", "Bg2", "O-O", "6.", "Nbd2", "b6", "7.", "O-O", "Bb7", "8.", "Ne5", "Nbd7", "9.", "cxd5", "exd5", "7.", "O-O", "c6", "8.", "Nc3", "Bf5", "dxc4", "7.", "Na3", "Bxa3", "8.", "bxa3", "Bd7", "9.", "Ne5", "Bc6", "10.", "Nxc6", "Nxc6", "11.", "Bb2", "a6", "8.", "Qxc4", "b5", "9.", "Qc2", "Bb7", "10.", "Bg5", "Nbd7", "11.", "Bxf6"]
 
 
 Pli: 11...
@@ -3260,6 +3291,7 @@ Working on variation: 8
 Number of variations: 39
 Pli Number: 404
 Now Working on variation: 7
+Variation Now: ["1.", "d4", "Nf6", "2.", "c4", "e6", "3.", "Nf3", "d5", "4.", "g3", "Be7", "5.", "Bg2", "O-O", "6.", "Nbd2", "b6", "7.", "O-O", "Bb7", "8.", "Ne5", "Nbd7", "9.", "cxd5", "exd5", "7.", "O-O", "c6", "8.", "Nc3", "Bf5", "dxc4", "7.", "Na3", "Bxa3", "8.", "bxa3", "Bd7", "9.", "Ne5", "Bc6", "10.", "Nxc6", "Nxc6", "11.", "Bb2", "a6", "8.", "Qxc4", "b5", "9.", "Qc2", "Bb7", "10.", "Bg5", "Nbd7", "11.", "Bxf6", "Nxf6", "12.", "Nbd2", "Rc8", "13.", "Nb3", "Be4"]
 
 
 Pli: )
@@ -3269,6 +3301,7 @@ Working on variation: 7
 Number of variations: 39
 Pli Number: 405
 Now Working on variation: 6
+Variation Now: ["1.", "d4", "Nf6", "2.", "c4", "e6", "3.", "Nf3", "d5", "4.", "g3", "Be7", "5.", "Bg2", "O-O", "6.", "Nbd2", "b6", "7.", "O-O", "Bb7", "8.", "Ne5", "Nbd7", "9.", "cxd5", "exd5", "7.", "O-O", "c6", "8.", "Nc3", "Bf5", "dxc4", "7.", "Na3", "Bxa3", "8.", "bxa3", "Bd7", "9.", "Ne5", "Bc6", "10.", "Nxc6", "Nxc6", "11.", "Bb2", "a6", "8.", "Qxc4", "b5", "9.", "Qc2", "Bb7", "10.", "Bd2"]
 
 
 Pli: (10.
@@ -3350,6 +3383,7 @@ Working on variation: 9
 Number of variations: 42
 Pli Number: 415
 Now Working on variation: 8
+Variation Now: ["1.", "d4", "Nf6", "2.", "c4", "e6", "3.", "Nf3", "d5", "4.", "g3", "Be7", "5.", "Bg2", "O-O", "6.", "Nbd2", "b6", "7.", "O-O", "Bb7", "8.", "Ne5", "Nbd7", "9.", "cxd5", "exd5", "7.", "O-O", "c6", "8.", "Nc3", "Bf5", "dxc4", "7.", "Na3", "Bxa3", "8.", "bxa3", "Bd7", "9.", "Ne5", "Bc6", "10.", "Nxc6", "Nxc6", "11.", "Bb2", "a6", "8.", "Qxc4", "b5", "9.", "Qc2", "Bb7", "10.", "Bf4", "Nd5", "11.", "Nc3"]
 
 
 Pli: 11...
@@ -3391,6 +3425,7 @@ Working on variation: 8
 Number of variations: 42
 Pli Number: 420
 Now Working on variation: 7
+Variation Now: ["1.", "d4", "Nf6", "2.", "c4", "e6", "3.", "Nf3", "d5", "4.", "g3", "Be7", "5.", "Bg2", "O-O", "6.", "Nbd2", "b6", "7.", "O-O", "Bb7", "8.", "Ne5", "Nbd7", "9.", "cxd5", "exd5", "7.", "O-O", "c6", "8.", "Nc3", "Bf5", "dxc4", "7.", "Na3", "Bxa3", "8.", "bxa3", "Bd7", "9.", "Ne5", "Bc6", "10.", "Nxc6", "Nxc6", "11.", "Bb2", "a6", "8.", "Qxc4", "b5", "9.", "Qc2", "Bb7", "10.", "Bf4", "Nc6"]
 
 
 Pli: 11.
@@ -3472,6 +3507,7 @@ Working on variation: 9
 Number of variations: 44
 Pli Number: 430
 Now Working on variation: 8
+Variation Now: ["1.", "d4", "Nf6", "2.", "c4", "e6", "3.", "Nf3", "d5", "4.", "g3", "Be7", "5.", "Bg2", "O-O", "6.", "Nbd2", "b6", "7.", "O-O", "Bb7", "8.", "Ne5", "Nbd7", "9.", "cxd5", "exd5", "7.", "O-O", "c6", "8.", "Nc3", "Bf5", "dxc4", "7.", "Na3", "Bxa3", "8.", "bxa3", "Bd7", "9.", "Ne5", "Bc6", "10.", "Nxc6", "Nxc6", "11.", "Bb2", "a6", "8.", "Qxc4", "b5", "9.", "Qc2", "Bb7", "10.", "Bf4", "Nc6", "11.", "Nc3", "Nb4", "12.", "Qc1"]
 
 
 Pli: 12...
@@ -3489,6 +3525,7 @@ Working on variation: 8
 Number of variations: 44
 Pli Number: 432
 Now Working on variation: 7
+Variation Now: ["1.", "d4", "Nf6", "2.", "c4", "e6", "3.", "Nf3", "d5", "4.", "g3", "Be7", "5.", "Bg2", "O-O", "6.", "Nbd2", "b6", "7.", "O-O", "Bb7", "8.", "Ne5", "Nbd7", "9.", "cxd5", "exd5", "7.", "O-O", "c6", "8.", "Nc3", "Bf5", "dxc4", "7.", "Na3", "Bxa3", "8.", "bxa3", "Bd7", "9.", "Ne5", "Bc6", "10.", "Nxc6", "Nxc6", "11.", "Bb2", "a6", "8.", "Qxc4", "b5", "9.", "Qc2", "Bb7", "10.", "Bf4", "Nc6", "11.", "Rd1"]
 
 
 Pli: 11...
@@ -3578,6 +3615,7 @@ Working on variation: 7
 Number of variations: 44
 Pli Number: 443
 Now Working on variation: 6
+Variation Now: ["1.", "d4", "Nf6", "2.", "c4", "e6", "3.", "Nf3", "d5", "4.", "g3", "Be7", "5.", "Bg2", "O-O", "6.", "Nbd2", "b6", "7.", "O-O", "Bb7", "8.", "Ne5", "Nbd7", "9.", "cxd5", "exd5", "7.", "O-O", "c6", "8.", "Nc3", "Bf5", "dxc4", "7.", "Na3", "Bxa3", "8.", "bxa3", "Bd7", "9.", "Ne5", "Bc6", "10.", "Nxc6", "Nxc6", "11.", "Bb2", "a6", "8.", "Qxc4", "b5", "9.", "Qc2", "Bb7", "10.", "Bd2"]
 
 
 Pli: 10...
@@ -3635,6 +3673,7 @@ Working on variation: 7
 Number of variations: 45
 Pli Number: 450
 Now Working on variation: 6
+Variation Now: ["1.", "d4", "Nf6", "2.", "c4", "e6", "3.", "Nf3", "d5", "4.", "g3", "Be7", "5.", "Bg2", "O-O", "6.", "Nbd2", "b6", "7.", "O-O", "Bb7", "8.", "Ne5", "Nbd7", "9.", "cxd5", "exd5", "7.", "O-O", "c6", "8.", "Nc3", "Bf5", "dxc4", "7.", "Na3", "Bxa3", "8.", "bxa3", "Bd7", "9.", "Ne5", "Bc6", "10.", "Nxc6", "Nxc6", "11.", "Bb2", "a6", "8.", "Qxc4", "b5", "9.", "Qc2", "Bb7", "10.", "Bd2", "Be4", "11.", "Qc1", "Bb7"]
 
 
 Pli: (11...
@@ -3652,6 +3691,7 @@ Working on variation: 7
 Number of variations: 46
 Pli Number: 452
 Now Working on variation: 6
+Variation Now: ["1.", "d4", "Nf6", "2.", "c4", "e6", "3.", "Nf3", "d5", "4.", "g3", "Be7", "5.", "Bg2", "O-O", "6.", "Nbd2", "b6", "7.", "O-O", "Bb7", "8.", "Ne5", "Nbd7", "9.", "cxd5", "exd5", "7.", "O-O", "c6", "8.", "Nc3", "Bf5", "dxc4", "7.", "Na3", "Bxa3", "8.", "bxa3", "Bd7", "9.", "Ne5", "Bc6", "10.", "Nxc6", "Nxc6", "11.", "Bb2", "a6", "8.", "Qxc4", "b5", "9.", "Qc2", "Bb7", "10.", "Bd2", "Be4", "11.", "Qc1", "Bb7"]
 
 
 Pli: (11...
@@ -3669,6 +3709,7 @@ Working on variation: 7
 Number of variations: 47
 Pli Number: 454
 Now Working on variation: 6
+Variation Now: ["1.", "d4", "Nf6", "2.", "c4", "e6", "3.", "Nf3", "d5", "4.", "g3", "Be7", "5.", "Bg2", "O-O", "6.", "Nbd2", "b6", "7.", "O-O", "Bb7", "8.", "Ne5", "Nbd7", "9.", "cxd5", "exd5", "7.", "O-O", "c6", "8.", "Nc3", "Bf5", "dxc4", "7.", "Na3", "Bxa3", "8.", "bxa3", "Bd7", "9.", "Ne5", "Bc6", "10.", "Nxc6", "Nxc6", "11.", "Bb2", "a6", "8.", "Qxc4", "b5", "9.", "Qc2", "Bb7", "10.", "Bd2", "Be4", "11.", "Qc1", "Bb7"]
 
 
 Pli: 8...
@@ -3766,6 +3807,7 @@ Working on variation: 8
 Number of variations: 49
 Pli Number: 466
 Now Working on variation: 7
+Variation Now: ["1.", "d4", "Nf6", "2.", "c4", "e6", "3.", "Nf3", "d5", "4.", "g3", "Be7", "5.", "Bg2", "O-O", "6.", "Nbd2", "b6", "7.", "O-O", "Bb7", "8.", "Ne5", "Nbd7", "9.", "cxd5", "exd5", "7.", "O-O", "c6", "8.", "Nc3", "Bf5", "dxc4", "7.", "Na3", "Bxa3", "8.", "bxa3", "Bd7", "9.", "Ne5", "Bc6", "10.", "Nxc6", "Nxc6", "11.", "Bb2", "a6", "8.", "Qxc4", "b5", "9.", "Qc2", "Bb7", "10.", "Bd2", "Be4", "11.", "Qc1", "Bb7", "Bd7", "9.", "Qxc4", "Bc6", "10.", "Bf4", "a5"]
 
 
 Pli: 11.
@@ -3871,6 +3913,7 @@ Working on variation: 8
 Number of variations: 50
 Pli Number: 479
 Now Working on variation: 7
+Variation Now: ["1.", "d4", "Nf6", "2.", "c4", "e6", "3.", "Nf3", "d5", "4.", "g3", "Be7", "5.", "Bg2", "O-O", "6.", "Nbd2", "b6", "7.", "O-O", "Bb7", "8.", "Ne5", "Nbd7", "9.", "cxd5", "exd5", "7.", "O-O", "c6", "8.", "Nc3", "Bf5", "dxc4", "7.", "Na3", "Bxa3", "8.", "bxa3", "Bd7", "9.", "Ne5", "Bc6", "10.", "Nxc6", "Nxc6", "11.", "Bb2", "a6", "8.", "Qxc4", "b5", "9.", "Qc2", "Bb7", "10.", "Bd2", "Be4", "11.", "Qc1", "Bb7", "Bd7", "9.", "Qxc4", "Bc6", "10.", "Bf4", "a5", "11.", "Nc3", "Na6", "12.", "Rac1"]
 
 
 Pli: 12...
@@ -3928,6 +3971,7 @@ Working on variation: 7
 Number of variations: 50
 Pli Number: 486
 Now Working on variation: 6
+Variation Now: ["1.", "d4", "Nf6", "2.", "c4", "e6", "3.", "Nf3", "d5", "4.", "g3", "Be7", "5.", "Bg2", "O-O", "6.", "Nbd2", "b6", "7.", "O-O", "Bb7", "8.", "Ne5", "Nbd7", "9.", "cxd5", "exd5", "7.", "O-O", "c6", "8.", "Nc3", "Bf5", "dxc4", "7.", "Na3", "Bxa3", "8.", "bxa3", "Bd7", "9.", "Ne5", "Bc6", "10.", "Nxc6", "Nxc6", "11.", "Bb2", "a6", "8.", "Qxc4", "b5", "9.", "Qc2", "Bb7", "10.", "Bd2", "Be4", "11.", "Qc1", "Bb7", "Bd7", "9.", "Qxc4", "Bc6", "10.", "Bg5"]
 
 
 Pli: (10.
@@ -4073,6 +4117,7 @@ Working on variation: 7
 Number of variations: 51
 Pli Number: 504
 Now Working on variation: 6
+Variation Now: ["1.", "d4", "Nf6", "2.", "c4", "e6", "3.", "Nf3", "d5", "4.", "g3", "Be7", "5.", "Bg2", "O-O", "6.", "Nbd2", "b6", "7.", "O-O", "Bb7", "8.", "Ne5", "Nbd7", "9.", "cxd5", "exd5", "7.", "O-O", "c6", "8.", "Nc3", "Bf5", "dxc4", "7.", "Na3", "Bxa3", "8.", "bxa3", "Bd7", "9.", "Ne5", "Bc6", "10.", "Nxc6", "Nxc6", "11.", "Bb2", "a6", "8.", "Qxc4", "b5", "9.", "Qc2", "Bb7", "10.", "Bd2", "Be4", "11.", "Qc1", "Bb7", "Bd7", "9.", "Qxc4", "Bc6", "10.", "Bg5"]
 
 
 Pli: 10...
@@ -4114,6 +4159,7 @@ Working on variation: 7
 Number of variations: 52
 Pli Number: 509
 Now Working on variation: 6
+Variation Now: ["1.", "d4", "Nf6", "2.", "c4", "e6", "3.", "Nf3", "d5", "4.", "g3", "Be7", "5.", "Bg2", "O-O", "6.", "Nbd2", "b6", "7.", "O-O", "Bb7", "8.", "Ne5", "Nbd7", "9.", "cxd5", "exd5", "7.", "O-O", "c6", "8.", "Nc3", "Bf5", "dxc4", "7.", "Na3", "Bxa3", "8.", "bxa3", "Bd7", "9.", "Ne5", "Bc6", "10.", "Nxc6", "Nxc6", "11.", "Bb2", "a6", "8.", "Qxc4", "b5", "9.", "Qc2", "Bb7", "10.", "Bd2", "Be4", "11.", "Qc1", "Bb7", "Bd7", "9.", "Qxc4", "Bc6", "10.", "Bg5", "Bd5"]
 
 
 Pli: 11.
@@ -4219,6 +4265,7 @@ Working on variation: 8
 Number of variations: 54
 Pli Number: 522
 Now Working on variation: 7
+Variation Now: ["1.", "d4", "Nf6", "2.", "c4", "e6", "3.", "Nf3", "d5", "4.", "g3", "Be7", "5.", "Bg2", "O-O", "6.", "Nbd2", "b6", "7.", "O-O", "Bb7", "8.", "Ne5", "Nbd7", "9.", "cxd5", "exd5", "7.", "O-O", "c6", "8.", "Nc3", "Bf5", "dxc4", "7.", "Na3", "Bxa3", "8.", "bxa3", "Bd7", "9.", "Ne5", "Bc6", "10.", "Nxc6", "Nxc6", "11.", "Bb2", "a6", "8.", "Qxc4", "b5", "9.", "Qc2", "Bb7", "10.", "Bd2", "Be4", "11.", "Qc1", "Bb7", "Bd7", "9.", "Qxc4", "Bc6", "10.", "Bg5", "Bd5", "11.", "Qd3", "c5", "12.", "Nc3"]
 
 
 Pli: 12...
@@ -4308,6 +4355,7 @@ Working on variation: 7
 Number of variations: 54
 Pli Number: 533
 Now Working on variation: 6
+Variation Now: ["1.", "d4", "Nf6", "2.", "c4", "e6", "3.", "Nf3", "d5", "4.", "g3", "Be7", "5.", "Bg2", "O-O", "6.", "Nbd2", "b6", "7.", "O-O", "Bb7", "8.", "Ne5", "Nbd7", "9.", "cxd5", "exd5", "7.", "O-O", "c6", "8.", "Nc3", "Bf5", "dxc4", "7.", "Na3", "Bxa3", "8.", "bxa3", "Bd7", "9.", "Ne5", "Bc6", "10.", "Nxc6", "Nxc6", "11.", "Bb2", "a6", "8.", "Qxc4", "b5", "9.", "Qc2", "Bb7", "10.", "Bd2", "Be4", "11.", "Qc1", "Bb7", "Bd7", "9.", "Qxc4", "Bc6", "10.", "Bg5", "Bd5", "11.", "Qc2"]
 
 
 Pli: 11...
@@ -4389,6 +4437,7 @@ Working on variation: 7
 Number of variations: 55
 Pli Number: 543
 Now Working on variation: 6
+Variation Now: ["1.", "d4", "Nf6", "2.", "c4", "e6", "3.", "Nf3", "d5", "4.", "g3", "Be7", "5.", "Bg2", "O-O", "6.", "Nbd2", "b6", "7.", "O-O", "Bb7", "8.", "Ne5", "Nbd7", "9.", "cxd5", "exd5", "7.", "O-O", "c6", "8.", "Nc3", "Bf5", "dxc4", "7.", "Na3", "Bxa3", "8.", "bxa3", "Bd7", "9.", "Ne5", "Bc6", "10.", "Nxc6", "Nxc6", "11.", "Bb2", "a6", "8.", "Qxc4", "b5", "9.", "Qc2", "Bb7", "10.", "Bd2", "Be4", "11.", "Qc1", "Bb7", "Bd7", "9.", "Qxc4", "Bc6", "10.", "Bg5", "Bd5", "11.", "Qc2", "Be4", "12.", "Qc1"]
 
 
 Pli: 12...
