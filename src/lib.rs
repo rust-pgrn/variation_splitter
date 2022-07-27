@@ -1,4 +1,3 @@
-use std::{fs, ops::Deref};
 pub fn contents(filename: &str) -> String {
     fs::read_to_string(filename).expect("File Not Found")
 }
