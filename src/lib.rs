@@ -24,7 +24,7 @@ pub fn split(contents: String, filename: &str) -> Vec<Vec<String>> {
             i += 1;
             variations[i].pop();
             buf.push_str(&format!("Pli: {}\n", pli));
-            buf.push_str(&format!("Action: New Variation & Adding {}\n", pli));
+            buf.push_str("Action: New Variation\n");
             buf.push_str(&format!("Variation: {:?}\n", variations[i]));
             buf.push_str(&format!("Working on variation: {}\n", i + 1));
             buf.push_str(&format!("Number of variations: {}\n", variations.len()));
