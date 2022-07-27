@@ -13,7 +13,6 @@ pub fn clean(contents: String) -> String {
     }
     s
 }
-//ouoeuoeuoeu
 pub fn split(contents: String, filename: &str) -> Vec<Vec<String>> {
     let mut variations: Vec<Vec<String>> = Vec::new();
     let mut i = variations.len();
