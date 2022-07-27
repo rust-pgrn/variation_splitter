@@ -3171,16 +3171,16 @@ Pli Number: 389
 
 
 Pli: {
-Action: Adding {
-Variation: ["1.", "d4", "Nf6", "2.", "c4", "e6", "3.", "Nf3", "d5", "4.", "g3", "Be7", "5.", "Bg2", "O-O", "6.", "O-O", "dxc4", "7.", "Qc2", "a6", "8.", "Qxc4", "b5", "9.", "Qc2", "Bb7", "10.", "Bg5", "Nbd7", "11.", "Nbd2", "Rc8", "12.", "Bxf6", "Nxf6", "13.", "Nb3", "{"]
+Action: Nothing
+Variation: ["1.", "d4", "Nf6", "2.", "c4", "e6", "3.", "Nf3", "d5", "4.", "g3", "Be7", "5.", "Bg2", "O-O", "6.", "O-O", "dxc4", "7.", "Qc2", "a6", "8.", "Qxc4", "b5", "9.", "Qc2", "Bb7", "10.", "Bg5", "Nbd7", "11.", "Nbd2", "Rc8", "12.", "Bxf6", "Nxf6", "13.", "Nb3"]
 Working on variation: 4
 Number of variations: 38
 Pli Number: 390
 
 
 Pli: Transpose})
-Action:  Adding Transpose}) & Moving Back Variation
-Variation: ["1.", "d4", "Nf6", "2.", "c4", "e6", "3.", "Nf3", "d5", "4.", "g3", "Be7", "5.", "Bg2", "O-O", "6.", "O-O", "dxc4", "7.", "Qc2", "a6", "8.", "Qxc4", "b5", "9.", "Qc2", "Bb7", "10.", "Bg5", "Nbd7", "11.", "Nbd2", "Rc8", "12.", "Bxf6", "Nxf6", "13.", "Nb3", "{", "Transpose}"]
+Action:  Moving Back Variation
+Variation: ["1.", "d4", "Nf6", "2.", "c4", "e6", "3.", "Nf3", "d5", "4.", "g3", "Be7", "5.", "Bg2", "O-O", "6.", "O-O", "dxc4", "7.", "Qc2", "a6", "8.", "Qxc4", "b5", "9.", "Qc2", "Bb7", "10.", "Bg5", "Nbd7", "11.", "Nbd2", "Rc8", "12.", "Bxf6", "Nxf6", "13.", "Nb3"]
 Working on variation: 4
 Number of variations: 38
 Pli Number: 391
@@ -3285,8 +3285,8 @@ Pli Number: 403
 
 
 Pli: {Transpose})
-Action:  Adding {Transpose}) & Moving Back Variation
-Variation: ["1.", "d4", "Nf6", "2.", "c4", "e6", "3.", "Nf3", "d5", "4.", "g3", "Be7", "5.", "Bg2", "O-O", "6.", "O-O", "dxc4", "7.", "Qc2", "a6", "8.", "Qxc4", "b5", "9.", "Qc2", "Bb7", "10.", "Bg5", "Nbd7", "11.", "Bxf6", "Nxf6", "12.", "Nbd2", "Rc8", "13.", "Nb3", "c5", "14.", "dxc5", "{Transpose}"]
+Action:  Moving Back Variation
+Variation: ["1.", "d4", "Nf6", "2.", "c4", "e6", "3.", "Nf3", "d5", "4.", "g3", "Be7", "5.", "Bg2", "O-O", "6.", "O-O", "dxc4", "7.", "Qc2", "a6", "8.", "Qxc4", "b5", "9.", "Qc2", "Bb7", "10.", "Bg5", "Nbd7", "11.", "Bxf6", "Nxf6", "12.", "Nbd2", "Rc8", "13.", "Nb3", "c5", "14.", "dxc5"]
 Working on variation: 4
 Number of variations: 39
 Pli Number: 404
@@ -3377,8 +3377,8 @@ Pli Number: 414
 
 
 Pli: $6)
-Action:  Adding $6) & Moving Back Variation
-Variation: ["1.", "d4", "Nf6", "2.", "c4", "e6", "3.", "Nf3", "d5", "4.", "g3", "Be7", "5.", "Bg2", "O-O", "6.", "O-O", "dxc4", "7.", "Qc2", "a6", "8.", "Qxc4", "b5", "9.", "Qc2", "Bb7", "10.", "Bf4", "Nd5", "11.", "Bd2", "$6"]
+Action:  Moving Back Variation
+Variation: ["1.", "d4", "Nf6", "2.", "c4", "e6", "3.", "Nf3", "d5", "4.", "g3", "Be7", "5.", "Bg2", "O-O", "6.", "O-O", "dxc4", "7.", "Qc2", "a6", "8.", "Qxc4", "b5", "9.", "Qc2", "Bb7", "10.", "Bf4", "Nd5", "11.", "Bd2"]
 Working on variation: 5
 Number of variations: 42
 Pli Number: 415

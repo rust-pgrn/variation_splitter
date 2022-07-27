@@ -32,7 +32,7 @@ pub fn split(contents: String, filename: &str) -> Vec<Vec<String>> {
             buf.push_str("\n\n");
         } else if pli.contains(')') {
             buf.push_str(&format!("Pli: {}\n", pli));
-            if &pli[0..1] != ")" {
+            if &pli[0..1] != ")" && &pli[0..1] != "$" && !pli.contains('{') && !pli.contains('}') {
                 variations[i].push(pli.replace(')', ""));
                 buf.push_str(&format!(
                     "Action:  Adding {} & Moving Back Variation\n",
@@ -53,7 +53,7 @@ pub fn split(contents: String, filename: &str) -> Vec<Vec<String>> {
             buf.push_str(&format!("Now Working on variation: {}\n", i + 1));
             buf.push_str(&format!("Variation Now: {:?}\n", variations[i]));
             buf.push_str("\n\n");
-        } else if pli.contains("...") | pli.contains('$') {
+        } else if pli.contains("...") | pli.contains('$') | pli.contains('{') | pli.contains('}') {
             buf.push_str(&format!("Pli: {}\n", pli));
             buf.push_str("Action: Nothing\n");
             buf.push_str(&format!("Variation: {:?}\n", variations[i]));
