@@ -31,28 +31,25 @@ pub fn split(contents: String, filename: &str) -> Vec<Vec<String>> {
             buf.push_str(&format!("Pli Number: {}\n", len + 1));
             buf.push_str("\n\n");
         } else if pli.contains(')') {
-            variations[i].push(pli.replace(')', ""));
             buf.push_str(&format!("Pli: {}\n", pli));
-            buf.push_str(&format!(
-                "Action:  Adding {} & Moving Back Variation\n",
-                pli
-            ));
+            if &pli[0..1] != ")" {
+                variations[i].push(pli.replace(')', ""));
+                buf.push_str(&format!(
+                    "Action:  Adding {} & Moving Back Variation\n",
+                    pli
+                ));
+            } else {
+                buf.push_str("Action:  Moving Back Variation\n");
+            }
             buf.push_str(&format!("Variation: {:?}\n", variations[i]));
             buf.push_str(&format!("Working on variation: {}\n", i + 1));
             buf.push_str(&format!("Number of variations: {}\n", variations.len()));
             buf.push_str(&format!("Pli Number: {}\n", len + 1));
-            i -= 1;
-            buf.push_str(&format!("Now Working on variation: {}\n", i + 1));
-            buf.push_str(&format!("Variation Now: {:?}\n", variations[i]));
-            buf.push_str("\n\n");
-        } else if pli == ")" {
-            buf.push_str(&format!("Pli: {}\n", pli));
-            buf.push_str("Action: Moving Back Variation\n");
-            buf.push_str(&format!("Variation: {:?}\n", variations[i]));
-            buf.push_str(&format!("Working on variation: {}\n", i + 1));
-            buf.push_str(&format!("Number of variations: {}\n", variations.len()));
-            buf.push_str(&format!("Pli Number: {}\n", len + 1));
-            i -= 1;
+            for c in pli.chars() {
+                if c == ')' {
+                    i -= 1;
+                }
+            }
             buf.push_str(&format!("Now Working on variation: {}\n", i + 1));
             buf.push_str(&format!("Variation Now: {:?}\n", variations[i]));
             buf.push_str("\n\n");
