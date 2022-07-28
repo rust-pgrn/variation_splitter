@@ -28,4 +28,4 @@ Bxg2 13. Kxg2 Nd5 14. Rad1) 12... Nb4 13. Ne5 Bxg2 14. Kxg2) (10. Nc3 b5 11.
 Qd3 b4 12. Nb1 Be4 13. Qd1 c5 14. Nbd2 Bd5 15. dxc5 Nbd7) 10... Bd5 (10... Nbd7
 ) 11. Qc2 (11. Qd3 c5 12. Nc3 (12. dxc5 Nbd7 13. Nc3 Nxc5) 12... Bc6 13. Rfd1
 cxd4 14. Nxd4 Bxg2 15. Kxg2 Nbd7) 11... Be4 12. Qc1 (12. Qd1 c5 13. dxc5 Bxc5)
-12... h6 13. Bxf6 Bxf6 14. Rd1 a5 15. Nbd2 Bxf3 16. Bxf3 c6 *
+12... h6 13. Bxf6 Bxf6 14. Rd1 a5 15. Nbd2 Bxf3 16. Bxf3 c6

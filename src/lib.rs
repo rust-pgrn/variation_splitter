@@ -79,11 +79,24 @@ pub fn split(contents: String, filename: &str) -> Vec<Vec<String>> {
 pub fn convert(v: &Vec<Vec<String>>) -> String {
     let mut s = String::new();
     for var in v {
+        s.push_str(
+            "\n[Event \"?\"]
+[Site\"?\"]
+[Date \"2022.07.13\"]
+[Round \"?\"]
+[White \"?\"]
+[Black \"?\"]
+[Result \"*\"]
+[Annotator \"Noor\"]
+[PlyCount \"?\"]
+[SourceVersionDate \"2022.07.13\"]\n
+",
+        );
         for pli in var {
             s.push_str(pli);
             s.push(' ');
         }
-        s.push_str("\n\n\n\n\n\n\n");
+        s.push_str("*\n");
     }
     s
 }
