@@ -71,11 +71,18 @@ pub fn clean(contents: String) -> String {
     }
     s
 }
-pub fn split(contents: String, filename: &str) -> Vec<Vec<String>> {
+pub fn split(config: &Config) -> Vec<Vec<String>> {
+    let contents = contents(config.input_file);
+
+    let contents = clean(contents);
+
     let mut variations: Vec<Vec<String>> = Vec::new();
     let mut i = variations.len();
+
     variations.push(Vec::new());
+
     let mut buf = String::new();
+
     for (len, pli) in contents.split(' ').enumerate() {
         if pli.contains('(') {
             variations.insert(i, variations[i].clone());
@@ -130,8 +137,7 @@ pub fn split(contents: String, filename: &str) -> Vec<Vec<String>> {
             buf.push_str("\n\n");
         }
     }
-    let _s = convert(&variations);
-    fs::write(filename, buf).unwrap();
+    fs::write(config.logs_file, buf).unwrap();
     variations
 }
 pub fn convert(v: &Vec<Vec<String>>) -> String {
