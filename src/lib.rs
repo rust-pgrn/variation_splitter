@@ -13,7 +13,7 @@ pub struct Config<'a> {
     pub output_file: &'a str,
     pub logs_file: &'a str,
     pub color: Color,
-    pub main_line: Order,
+    pub order: Order,
 }
 impl<'a> Config<'a> {
     pub fn new(mut args: env::Args) -> Result<Config<'a>, &'a str> {
@@ -36,7 +36,7 @@ impl<'a> Config<'a> {
             None => return Err("No color specified"),
         };
 
-        let main_line = match args.next() {
+        let order = match args.next() {
             Some(arg) => {
                 if arg == "m" || arg == "main" {
                     Order::Main
@@ -53,7 +53,7 @@ impl<'a> Config<'a> {
             output_file,
             logs_file,
             color,
-            main_line,
+            order,
         })
     }
 }
@@ -137,7 +137,14 @@ pub fn split(config: &Config) -> Vec<Vec<String>> {
             buf.push_str("\n\n");
         }
     }
+
+    if let Order::Side = config.order {
+        variations.reverse();
+        buf.push_str("Reversing order");
+    };
+
     fs::write(config.logs_file, buf).unwrap();
+
     variations
 }
 pub fn convert(v: &Vec<Vec<String>>) -> String {
