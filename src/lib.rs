@@ -1,4 +1,62 @@
+use std::env;
 use std::fs;
+pub enum Color {
+    White,
+    Black,
+}
+pub enum Order {
+    Main,
+    Side,
+}
+pub struct Config<'a> {
+    pub input_file: &'a str,
+    pub output_file: &'a str,
+    pub logs_file: &'a str,
+    pub color: Color,
+    pub main_line: Order,
+}
+impl<'a> Config<'a> {
+    pub fn new(mut args: env::Args) -> Result<Config<'a>, &'a str> {
+        let input_file = "files/input.txt";
+        let output_file = "files/output.pgn";
+        let logs_file = "files/logs.txt";
+
+        //First argument is path of executable
+        args.next();
+        let color = match args.next() {
+            Some(arg) => {
+                if arg == "w" || arg == "white" {
+                    Color::White
+                } else if arg == "b" || arg == "black" {
+                    Color::Black
+                } else {
+                    return Err("Not a color");
+                }
+            }
+            None => return Err("No color specified"),
+        };
+
+        let main_line = match args.next() {
+            Some(arg) => {
+                if arg == "m" || arg == "main" {
+                    Order::Main
+                } else if arg == "s" || arg == "side" {
+                    Order::Side
+                } else {
+                    return Err("Not an order");
+                }
+            }
+            None => return Err("No order specified"),
+        };
+        Ok(Config {
+            input_file,
+            output_file,
+            logs_file,
+            color,
+            main_line,
+        })
+    }
+}
 pub fn contents(filename: &str) -> String {
     fs::read_to_string(filename).expect("File Not Found")
 }
