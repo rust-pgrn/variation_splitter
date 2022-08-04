@@ -10,7 +10,7 @@
 [PlyCount "?"]
 [SourceVersionDate "2022.07.13"]
 
-1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. O-O dxc4 7. Qc2 a6 8. a4 Bd7 9. Qxc4 Bc6 10. Bg5 Bd5 11. Qc2 Be4 12. Qc1 h6 13. Bxf6 Bxf6 14. Rd1 a5 15. Nbd2 Bxf3 16. Bxf3 c6  *
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Ba6 5. b3 Bb4+ 6. Bd2 Be7 7. Nc3 d5 8. cxd5 exd5 9. Bg2 O-O 10. O-O Bb7 *
 
 [Event "?"]
 [Site"?"]
@@ -23,7 +23,7 @@
 [PlyCount "?"]
 [SourceVersionDate "2022.07.13"]
 
-1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. O-O dxc4 7. Qc2 a6 8. a4 Bd7 9. Qxc4 Bc6 10. Bg5 Bd5 11. Qc2 Be4 12. Qd1 c5 13. dxc5 Bxc5 *
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Ba6 5. b3 Bb4+ 6. Bd2 Be7 7. Nc3 c6 8. e4 d5 9. exd5 cxd5 10. Bg2 Nc6 11. Ne5 Bb7 12. O-O Nxd4 13. Bf4 Nf5 14. cxd5 Nxd5 15. Nxd5 Bxd5 16. Nc6 Qd7 17. Bxd5 exd5 18. Nb8 *
 
 [Event "?"]
 [Site"?"]
@@ -36,7 +36,7 @@
 [PlyCount "?"]
 [SourceVersionDate "2022.07.13"]
 
-1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. O-O dxc4 7. Qc2 a6 8. a4 Bd7 9. Qxc4 Bc6 10. Bg5 Bd5 11. Qd3 c5 12. Nc3 Bc6 13. Rfd1 cxd4 14. Nxd4 Bxg2 15. Kxg2 Nbd7 *
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Ba6 5. b3 Bb4+ 6. Bd2 Be7 7. Bg2 d5 *
 
 [Event "?"]
 [Site"?"]
@@ -49,7 +49,7 @@
 [PlyCount "?"]
 [SourceVersionDate "2022.07.13"]
 
-1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. O-O dxc4 7. Qc2 a6 8. a4 Bd7 9. Qxc4 Bc6 10. Bg5 Bd5 11. Qd3 c5 12. dxc5 Nbd7 13. Nc3 Nxc5 *
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Ba6 5. b3 Bb4+ 6. Nbd2 Bc3 7. Rb1 Bb7 8. Bg2 Bxd4 *
 
 [Event "?"]
 [Site"?"]
@@ -62,7 +62,7 @@
 [PlyCount "?"]
 [SourceVersionDate "2022.07.13"]
 
-1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. O-O dxc4 7. Qc2 a6 8. a4 Bd7 9. Qxc4 Bc6 10. Bg5 Nbd7 *
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Ba6 5. b3 Bb4+ 6. Nbd2 Bc3 7. Rb1 Bb7 8. e3 Be4 *
 
 [Event "?"]
 [Site"?"]
@@ -75,7 +75,7 @@
 [PlyCount "?"]
 [SourceVersionDate "2022.07.13"]
 
-1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. O-O dxc4 7. Qc2 a6 8. a4 Bd7 9. Qxc4 Bc6 10. Nc3 b5 11. Qd3 b4 12. Nb1 Be4 13. Qd1 c5 14. Nbd2 Bd5 15. dxc5 Nbd7 *
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Ba6 5. Nbd2 d5 6. cxd5 exd5 7. Bg2 Be7 8. O-O O-O 9. Nb1 Gc1,Gc3, Rc5,Rd5,Ge4][%cal *
 
 [Event "?"]
 [Site"?"]
@@ -88,7 +88,7 @@
 [PlyCount "?"]
 [SourceVersionDate "2022.07.13"]
 
-1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. O-O dxc4 7. Qc2 a6 8. a4 Bd7 9. Qxc4 Bc6 10. Bf4 a5 11. Nc3 Na6 12. Rac1 Nb4 13. Ne5 Bxg2 14. Kxg2 *
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Ba6 5. Qb3 *
 
 [Event "?"]
 [Site"?"]
@@ -101,7 +101,7 @@
 [PlyCount "?"]
 [SourceVersionDate "2022.07.13"]
 
-1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. O-O dxc4 7. Qc2 a6 8. a4 Bd7 9. Qxc4 Bc6 10. Bf4 a5 11. Nc3 Na6 12. Ne5 Bxg2 13. Kxg2 Nd5 14. Rad1 *
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Ba6 5. Qa4 Bb7 6. Bg2 c5 7. O-O cxd4 8. Nxd4 Bxg2 9. Kxg2 Qc7 10. Nc3 Qb7+ 11. f3 [%cal Na6 Ra4][%cal *
 
 [Event "?"]
 [Site"?"]
@@ -114,7 +114,7 @@
 [PlyCount "?"]
 [SourceVersionDate "2022.07.13"]
 
-1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. O-O dxc4 7. Qc2 a6 8. a4 Bd7 9. Qxc4 Bc6 10. Bf4 Bd6 *
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Ba6 5. Qc2 Bb7 6. Bg2 c5 7. d5 exd5 8. cxd5 Nxd5 9. O-O Be7 10. Rd1 Nc6 11. Qf5 Nf6 12. e4 g6 13. Qf4 O-O 14. e5 Nh5 15. Qc4 *
 
 [Event "?"]
 [Site"?"]
@@ -127,7 +127,7 @@
 [PlyCount "?"]
 [SourceVersionDate "2022.07.13"]
 
-1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. O-O dxc4 7. Qc2 a6 8. Qxc4 b5 9. Qc2 Bb7 10. Bd2 Be4 11. Qc1 Bb7 *
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Ba6 5. Qc2 Bb7 6. Bg2 c5 7. d5 exd5 8. cxd5 Nxd5 9. O-O Be7 10. Rd1 Nc6 11. Rxd5 Nb4 *
 
 [Event "?"]
 [Site"?"]
@@ -140,7 +140,7 @@
 [PlyCount "?"]
 [SourceVersionDate "2022.07.13"]
 
-1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. O-O dxc4 7. Qc2 a6 8. Qxc4 b5 9. Qc2 Bb7 10. Bd2 Be4 11. Qc1 c6 *
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Ba6 5. Qc2 Bb7 6. Bg2 c5 7. d5 exd5 8. cxd5 Nxd5 9. O-O Be7 10. Rd1 Nc6 11. a3 *
 
 [Event "?"]
 [Site"?"]
@@ -153,7 +153,7 @@
 [PlyCount "?"]
 [SourceVersionDate "2022.07.13"]
 
-1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. O-O dxc4 7. Qc2 a6 8. Qxc4 b5 9. Qc2 Bb7 10. Bd2 Be4 11. Qc1 Nc6 *
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Ba6 5. Qc2 Bb7 6. Bg2 c5 7. d5 exd5 8. cxd5 Nxd5 9. O-O Be7 10. Rd1 Nc6 11. Qa4 *
 
 [Event "?"]
 [Site"?"]
@@ -166,7 +166,7 @@
 [PlyCount "?"]
 [SourceVersionDate "2022.07.13"]
 
-1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. O-O dxc4 7. Qc2 a6 8. Qxc4 b5 9. Qc2 Bb7 10. Bd2 Be4 11. Qc1 Nbd7 *
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Ba6 5. Qc2 Bb7 6. Bg2 c5 7. d5 exd5 8. cxd5 Nxd5 9. O-O Be7 10. Rd1 Nc6 11. Nc3 *
 
 [Event "?"]
 [Site"?"]
@@ -179,7 +179,7 @@
 [PlyCount "?"]
 [SourceVersionDate "2022.07.13"]
 
-1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. O-O dxc4 7. Qc2 a6 8. Qxc4 b5 9. Qc2 Bb7 10. Bf4 Nc6 11. Rd1 Nb4 12. Qc1 Rc8 13. Nc3 Nbd5 14. Nxd5 Bxd5 *
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Ba6 5. Qc2 c5 6. d5 exd5 7. cxd5 Bb7 8. e4 Qe7 9. Nc3 Nxd5 *
 
 [Event "?"]
 [Site"?"]
@@ -192,7 +192,7 @@
 [PlyCount "?"]
 [SourceVersionDate "2022.07.13"]
 
-1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. O-O dxc4 7. Qc2 a6 8. Qxc4 b5 9. Qc2 Bb7 10. Bf4 Nc6 11. Nc3 Nb4 12. Qc1 Rc8 *
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Bb7 *
 
 [Event "?"]
 [Site"?"]
@@ -205,7 +205,7 @@
 [PlyCount "?"]
 [SourceVersionDate "2022.07.13"]
 
-1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. O-O dxc4 7. Qc2 a6 8. Qxc4 b5 9. Qc2 Bb7 10. Bf4 Nc6 11. Nc3 Nb4 12. Qd2 c5 *
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. e3 Bb7 5. Nc3 d5 6. cxd5 exd5 *
 
 [Event "?"]
 [Site"?"]
@@ -218,7 +218,7 @@
 [PlyCount "?"]
 [SourceVersionDate "2022.07.13"]
 
-1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. O-O dxc4 7. Qc2 a6 8. Qxc4 b5 9. Qc2 Bb7 10. Bf4 Nd5 11. Nc3 Nxf4 12. gxf4 Nd7 *
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. Nc3 Bb4 5. Bg5 Bb7 6. e3 *
 
 [Event "?"]
 [Site"?"]
@@ -231,7 +231,7 @@
 [PlyCount "?"]
 [SourceVersionDate "2022.07.13"]
 
-1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. O-O dxc4 7. Qc2 a6 8. Qxc4 b5 9. Qc2 Bb7 10. Bf4 Nd5 11. Bd2 *
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. Nc3 Bb4 5. Bg5 Bb7 6. Nd2 *
 
 [Event "?"]
 [Site"?"]
@@ -244,7 +244,7 @@
 [PlyCount "?"]
 [SourceVersionDate "2022.07.13"]
 
-1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. O-O dxc4 7. Qc2 a6 8. Qxc4 b5 9. Qc2 Bb7 10. Bg5 Nbd7 11. Bxf6 Nxf6 12. Nbd2 Rc8 13. Nb3 Be4 *
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. a3 Ba6 5. Qc2 Bb7 6. Nc3 c5 Gd1][%cal 7. e4 cxd4 8. Nxd4 Bc5 Gc3, *
 
 [Event "?"]
 [Site"?"]
@@ -257,7 +257,7 @@
 [PlyCount "?"]
 [SourceVersionDate "2022.07.13"]
 
-1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. O-O dxc4 7. Qc2 a6 8. Qxc4 b5 9. Qc2 Bb7 10. Bg5 Nbd7 11. Bxf6 Nxf6 12. Nbd2 Rc8 13. Nb3 c5 14. dxc5 *
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. a3 Ba6 5. Qc2 Bb7 6. Nc3 c5 Gd1][%cal 7. dxc5 bxc5 8. Bf4 *
 
 [Event "?"]
 [Site"?"]
@@ -270,7 +270,7 @@
 [PlyCount "?"]
 [SourceVersionDate "2022.07.13"]
 
-1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. O-O dxc4 7. Qc2 a6 8. Qxc4 b5 9. Qc2 Bb7 10. Bg5 Nbd7 11. Nbd2 Rc8 12. Bxf6 Nxf6 13. Nb3 *
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. a3 Ba6 5. e3 Rc1] [%cal d5 6. cxd5 Bxf1 *
 
 [Event "?"]
 [Site"?"]
@@ -283,7 +283,7 @@
 [PlyCount "?"]
 [SourceVersionDate "2022.07.13"]
 
-1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. O-O dxc4 7. Na3 Bxa3 8. bxa3 Bd7 9. Ne5 Bc6 10. Nxc6 Nxc6 11. Bb2 *
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. a3 Bb7 5. Nc3 d5 6. cxd5 Nxd5 7. e3 *
 
 [Event "?"]
 [Site"?"]
@@ -296,7 +296,7 @@
 [PlyCount "?"]
 [SourceVersionDate "2022.07.13"]
 
-1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. O-O dxc4 7. Na3 Bxa3 8. bxa3 Bd7 9. Ne5 Bc6 10. Nxc6 Nxc6 11. Bxc6 bxc6 *
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. a3 Bb7 5. Nc3 d5 6. cxd5 Nxd5 7. Qc2 Nd7 8. e4 Nxc3 9. bxc3 c5 10. Bd3 Qc8 11. Qa2 Ba6 *
 
 [Event "?"]
 [Site"?"]
@@ -309,7 +309,7 @@
 [PlyCount "?"]
 [SourceVersionDate "2022.07.13"]
 
-1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. O-O dxc4 7. Na3 Bxa3 8. bxa3 Nc6 9. Bb2 Rb8 *
+1. d4 Nf6 2. c4 e6 3. g3 d5 4. Nf3 Be7 5. Bg2 O-O 6. O-O dxc4 7. Qc2 a6 8. Qxc4 b5 9. Qc2 Bb7 10. Bd2 Rc7][%cal Nbd7 11. Ba5 *
 
 [Event "?"]
 [Site"?"]
@@ -322,7 +322,7 @@
 [PlyCount "?"]
 [SourceVersionDate "2022.07.13"]
 
-1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. O-O dxc4 7. Na3 c5 8. Nxc4 Nc6 9. dxc5 Bxc5 *
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 O-O 5. a3 Bxc3+ 6. Qxc3 b6 7. Bg5 Bb7 8. Nf3 d6 9. e3 Nbd7 Gb7][%cal *
 
 [Event "?"]
 [Site"?"]
@@ -335,7 +335,7 @@
 [PlyCount "?"]
 [SourceVersionDate "2022.07.13"]
 
-1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. O-O dxc4 7. Qa4 a6 8. Qxc4 b5 9. Qc2 *
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. f3 d5 5. a3 Bxc3+ 6. bxc3 c5 7. cxd5 Nxd5 8. dxc5 Qa5 9. e4 Ne7 10. Be3 O-O 11. Qb3 *
 
 [Event "?"]
 [Site"?"]
@@ -348,7 +348,7 @@
 [PlyCount "?"]
 [SourceVersionDate "2022.07.13"]
 
-1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. O-O dxc4 7. Ne5 Nc6 8. Nxc6 bxc6 9. Na3 Bxa3 10. bxa3 Ba6 11. Qd2 Rb8 12. Qa5 Qc8 13. a4 Rd8 14. Rd1 c3 *
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. f3 c5 5. d5 b5 *
 
 [Event "?"]
 [Site"?"]
@@ -361,7 +361,7 @@
 [PlyCount "?"]
 [SourceVersionDate "2022.07.13"]
 
-1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. O-O dxc4 7. Ne5 Nc6 8. Nxc6 bxc6 9. Na3 Bxa3 10. bxa3 Ba6 11. Bxc6 Rb8 *
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. a3 Bxc3+ 5. bxc3 *
 
 [Event "?"]
 [Site"?"]
@@ -374,342 +374,4 @@
 [PlyCount "?"]
 [SourceVersionDate "2022.07.13"]
 
-1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. O-O dxc4 7. Ne5 Nc6 8. Nxc6 bxc6 9. Bxc6 Rb8 10. Nc3 Bb7 *
-
-[Event "?"]
-[Site"?"]
-[Date "2022.07.13"]
-[Round "?"]
-[White "?"]
-[Black "?"]
-[Result "*"]
-[Annotator "Noor"]
-[PlyCount "?"]
-[SourceVersionDate "2022.07.13"]
-
-1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. O-O dxc4 7. Ne5 Nc6 8. Bxc6 bxc6 9. Nxc6 Qe8 10. Nxe7+ Qxe7 11. Qa4 e5 12. dxe5 Qxe5 13. Qxc4 Be6 14. Qd3 Rad8 15. Qe3 Qh5 16. f3 Bc4 *
-
-[Event "?"]
-[Site"?"]
-[Date "2022.07.13"]
-[Round "?"]
-[White "?"]
-[Black "?"]
-[Result "*"]
-[Annotator "Noor"]
-[PlyCount "?"]
-[SourceVersionDate "2022.07.13"]
-
-1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. O-O dxc4 7. Ne5 Nc6 8. Bxc6 bxc6 9. Nxc6 Qe8 10. Nxe7+ Qxe7 11. Qa4 e5 12. dxe5 Qxe5 13. Qxc4 Be6 14. Qc2 Bf5 15. Qc4 Be6 *
-
-[Event "?"]
-[Site"?"]
-[Date "2022.07.13"]
-[Round "?"]
-[White "?"]
-[Black "?"]
-[Result "*"]
-[Annotator "Noor"]
-[PlyCount "?"]
-[SourceVersionDate "2022.07.13"]
-
-1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. O-O dxc4 7. Ne5 Nc6 8. Bxc6 bxc6 9. Nxc6 Qe8 10. Nxe7+ Qxe7 11. Qc2 e5 12. Rd1 exd4 13. Rxd4 Be6 *
-
-[Event "?"]
-[Site"?"]
-[Date "2022.07.13"]
-[Round "?"]
-[White "?"]
-[Black "?"]
-[Result "*"]
-[Annotator "Noor"]
-[PlyCount "?"]
-[SourceVersionDate "2022.07.13"]
-
-1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. O-O dxc4 7. Ne5 Nc6 8. Bxc6 bxc6 9. Nxc6 Qe8 10. Nxe7+ Qxe7 11. Qc2 c5 12. Qxc4 cxd4 13. Qxd4 e5 14. Qh4 Rb8 *
-
-[Event "?"]
-[Site"?"]
-[Date "2022.07.13"]
-[Round "?"]
-[White "?"]
-[Black "?"]
-[Result "*"]
-[Annotator "Noor"]
-[PlyCount "?"]
-[SourceVersionDate "2022.07.13"]
-
-1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. O-O dxc4 7. Ne5 c5 8. dxc5 Qc7 9. Nxc4 Qxc5 10. b3 Rd8 11. Nbd2 *
-
-[Event "?"]
-[Site"?"]
-[Date "2022.07.13"]
-[Round "?"]
-[White "?"]
-[Black "?"]
-[Result "*"]
-[Annotator "Noor"]
-[PlyCount "?"]
-[SourceVersionDate "2022.07.13"]
-
-1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. cxd5 exd5 7. O-O c6 8. Nc3 Bf5 *
-
-[Event "?"]
-[Site"?"]
-[Date "2022.07.13"]
-[Round "?"]
-[White "?"]
-[Black "?"]
-[Result "*"]
-[Annotator "Noor"]
-[PlyCount "?"]
-[SourceVersionDate "2022.07.13"]
-
-1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. cxd5 exd5 7. O-O c6 8. Nc3 Nbd7 *
-
-[Event "?"]
-[Site"?"]
-[Date "2022.07.13"]
-[Round "?"]
-[White "?"]
-[Black "?"]
-[Result "*"]
-[Annotator "Noor"]
-[PlyCount "?"]
-[SourceVersionDate "2022.07.13"]
-
-1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. Nbd2 b6 7. O-O Bb7 8. cxd5 *
-
-[Event "?"]
-[Site"?"]
-[Date "2022.07.13"]
-[Round "?"]
-[White "?"]
-[Black "?"]
-[Result "*"]
-[Annotator "Noor"]
-[PlyCount "?"]
-[SourceVersionDate "2022.07.13"]
-
-1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. Nbd2 b6 7. O-O Bb7 8. Ne5 Nbd7 9. Ndf3 *
-
-[Event "?"]
-[Site"?"]
-[Date "2022.07.13"]
-[Round "?"]
-[White "?"]
-[Black "?"]
-[Result "*"]
-[Annotator "Noor"]
-[PlyCount "?"]
-[SourceVersionDate "2022.07.13"]
-
-1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. Nbd2 b6 7. O-O Bb7 8. Ne5 Nbd7 9. cxd5 exd5 10. Ndf3 c5 *
-
-[Event "?"]
-[Site"?"]
-[Date "2022.07.13"]
-[Round "?"]
-[White "?"]
-[Black "?"]
-[Result "*"]
-[Annotator "Noor"]
-[PlyCount "?"]
-[SourceVersionDate "2022.07.13"]
-
-1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. Nbd2 b6 7. O-O Bb7 8. Qc2 Nbd7 *
-
-[Event "?"]
-[Site"?"]
-[Date "2022.07.13"]
-[Round "?"]
-[White "?"]
-[Black "?"]
-[Result "*"]
-[Annotator "Noor"]
-[PlyCount "?"]
-[SourceVersionDate "2022.07.13"]
-
-1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. Nbd2 b6 7. O-O Bb7 8. b3 Nbd7 9. Bb2 c5 10. e3 Rc8 11. Rc1 Rc7 *
-
-[Event "?"]
-[Site"?"]
-[Date "2022.07.13"]
-[Round "?"]
-[White "?"]
-[Black "?"]
-[Result "*"]
-[Annotator "Noor"]
-[PlyCount "?"]
-[SourceVersionDate "2022.07.13"]
-
-1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. Nbd2 b6 7. O-O Bb7 8. b3 Nbd7 9. Bb2 c5 10. Rc1 Rc8 11. e3 Rc7 *
-
-[Event "?"]
-[Site"?"]
-[Date "2022.07.13"]
-[Round "?"]
-[White "?"]
-[Black "?"]
-[Result "*"]
-[Annotator "Noor"]
-[PlyCount "?"]
-[SourceVersionDate "2022.07.13"]
-
-1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. Nc3 dxc4 7. O-O Nc6 8. e4 Rb8 9. Be3 a6 *
-
-[Event "?"]
-[Site"?"]
-[Date "2022.07.13"]
-[Round "?"]
-[White "?"]
-[Black "?"]
-[Result "*"]
-[Annotator "Noor"]
-[PlyCount "?"]
-[SourceVersionDate "2022.07.13"]
-
-1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. Nc3 dxc4 7. O-O Nc6 8. e4 Rb8 9. a4 a6 *
-
-[Event "?"]
-[Site"?"]
-[Date "2022.07.13"]
-[Round "?"]
-[White "?"]
-[Black "?"]
-[Result "*"]
-[Annotator "Noor"]
-[PlyCount "?"]
-[SourceVersionDate "2022.07.13"]
-
-1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. Nc3 dxc4 7. O-O Nc6 8. e3 Rb8 9. Qa4 *
-
-[Event "?"]
-[Site"?"]
-[Date "2022.07.13"]
-[Round "?"]
-[White "?"]
-[Black "?"]
-[Result "*"]
-[Annotator "Noor"]
-[PlyCount "?"]
-[SourceVersionDate "2022.07.13"]
-
-1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. Nc3 dxc4 7. Ne5 c5 8. dxc5 Qxd1+ 9. Nxd1 Bxc5 10. O-O Nc6 11. Bxc6 bxc6 12. Be3 Bb6 13. Bxb6 axb6 14. Nc3 Bd7 15. Rfd1 Rfd8 16. Nxc4 b5 *
-
-[Event "?"]
-[Site"?"]
-[Date "2022.07.13"]
-[Round "?"]
-[White "?"]
-[Black "?"]
-[Result "*"]
-[Annotator "Noor"]
-[PlyCount "?"]
-[SourceVersionDate "2022.07.13"]
-
-1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. Nc3 dxc4 7. Ne5 c5 8. dxc5 Qxd1+ 9. Nxd1 Bxc5 10. O-O Nc6 11. Nxc6 bxc6 12. Bxc6 Rb8 *
-
-[Event "?"]
-[Site"?"]
-[Date "2022.07.13"]
-[Round "?"]
-[White "?"]
-[Black "?"]
-[Result "*"]
-[Annotator "Noor"]
-[PlyCount "?"]
-[SourceVersionDate "2022.07.13"]
-
-1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. Nc3 dxc4 7. Ne5 c5 8. dxc5 Qxd1+ 9. Nxd1 Bxc5 10. O-O Nc6 11. Nxc4 Nd5 *
-
-[Event "?"]
-[Site"?"]
-[Date "2022.07.13"]
-[Round "?"]
-[White "?"]
-[Black "?"]
-[Result "*"]
-[Annotator "Noor"]
-[PlyCount "?"]
-[SourceVersionDate "2022.07.13"]
-
-1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. Nc3 dxc4 7. Ne5 c5 8. dxc5 Qxd1+ 9. Nxd1 Bxc5 10. Nxc4 Nc6 *
-
-[Event "?"]
-[Site"?"]
-[Date "2022.07.13"]
-[Round "?"]
-[White "?"]
-[Black "?"]
-[Result "*"]
-[Annotator "Noor"]
-[PlyCount "?"]
-[SourceVersionDate "2022.07.13"]
-
-1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. Nc3 dxc4 7. Ne5 c5 8. dxc5 Qxd1+ 9. Nxd1 Bxc5 10. Nc3 Nc6 11. Nxc4 Nd5 12. Nxd5 exd5 13. Bxd5 Nb4 14. Be3 Be7 15. Be4 f5 16. Bd3 Bf6 *
-
-[Event "?"]
-[Site"?"]
-[Date "2022.07.13"]
-[Round "?"]
-[White "?"]
-[Black "?"]
-[Result "*"]
-[Annotator "Noor"]
-[PlyCount "?"]
-[SourceVersionDate "2022.07.13"]
-
-1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. Qc2 c5 7. O-O cxd4 8. Nxd4 Nc6 9. Nxc6 bxc6 10. b3 a5 11. Nc3 Ba6 12. Rd1 *
-
-[Event "?"]
-[Site"?"]
-[Date "2022.07.13"]
-[Round "?"]
-[White "?"]
-[Black "?"]
-[Result "*"]
-[Annotator "Noor"]
-[PlyCount "?"]
-[SourceVersionDate "2022.07.13"]
-
-1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. Qc2 c5 7. O-O cxd4 8. Nxd4 Nc6 9. Nxc6 bxc6 10. Rd1 Ba6 11. b3 Qb6 *
-
-[Event "?"]
-[Site"?"]
-[Date "2022.07.13"]
-[Round "?"]
-[White "?"]
-[Black "?"]
-[Result "*"]
-[Annotator "Noor"]
-[PlyCount "?"]
-[SourceVersionDate "2022.07.13"]
-
-1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. Qc2 c5 7. dxc5 Qa5+ 8. Nc3 dxc4 9. O-O Nc6 10. Bg5 Qxc5 11. Bxf6 Bxf6 12. Ne4 Qe7 *
-
-[Event "?"]
-[Site"?"]
-[Date "2022.07.13"]
-[Round "?"]
-[White "?"]
-[Black "?"]
-[Result "*"]
-[Annotator "Noor"]
-[PlyCount "?"]
-[SourceVersionDate "2022.07.13"]
-
-1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. Qc2 c5 7. dxc5 Qa5+ 8. Qc3 Qxc5 9. cxd5 Nxd5 10. Qxc5 Bxc5 *
-
-[Event "?"]
-[Site"?"]
-[Date "2022.07.13"]
-[Round "?"]
-[White "?"]
-[Black "?"]
-[Result "*"]
-[Annotator "Noor"]
-[PlyCount "?"]
-[SourceVersionDate "2022.07.13"]
-
-1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. Qc2 c5 7. dxc5 Qa5+ 8. Nbd2 Qxc5 *
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 *
