@@ -83,18 +83,44 @@ pub fn split(config: &Config) -> Vec<Vec<String>> {
 
     let mut buf = String::new();
 
+    let mut in_comment = false;
+
     for (len, pli) in contents.split(' ').enumerate() {
-        if pli.contains('(') {
-            variations.insert(i, variations[i].clone());
-            i += 1;
-            variations[i].pop();
+        if pli.contains('}') {
+            in_comment = false;
+            if pli.contains(')') {
+                buf.push_str("Action:  Moving Back Variation\n");
+                buf.push_str(&format!("Variation: {:?}\n", variations[i]));
+                buf.push_str(&format!("Working on variation: {}\n", i + 1));
+                buf.push_str(&format!("Number of variations: {}\n", variations.len()));
+                buf.push_str(&format!("Pli Number: {}\n", len + 1));
+                buf.push_str(&format!("In Comment: {}\n", in_comment));
+                for c in pli.chars() {
+                    if c == ')' {
+                        i -= 1;
+                    }
+                }
+                buf.push_str(&format!("Now Working on variation: {}\n", i + 1));
+                buf.push_str(&format!("Variation Now: {:?}\n", variations[i]));
+                buf.push_str("\n\n");
+            }
+        } else if pli.contains("...")
+            | pli.contains('$')
+            | pli.contains('{')
+            | pli.contains('%')
+            | in_comment
+        {
             buf.push_str(&format!("Pli: {}\n", pli));
-            buf.push_str("Action: New Variation\n");
+            buf.push_str("Action: Nothing\n");
             buf.push_str(&format!("Variation: {:?}\n", variations[i]));
             buf.push_str(&format!("Working on variation: {}\n", i + 1));
             buf.push_str(&format!("Number of variations: {}\n", variations.len()));
             buf.push_str(&format!("Pli Number: {}\n", len + 1));
+            buf.push_str(&format!("In Comment: {}\n", in_comment));
             buf.push_str("\n\n");
+            if pli.contains('{') {
+                in_comment = true;
+            }
         } else if pli.contains(')') {
             buf.push_str(&format!("Pli: {}\n", pli));
             if &pli[0..1] != ")" && &pli[0..1] != "$" && !pli.contains('{') && !pli.contains('}') {
@@ -117,14 +143,19 @@ pub fn split(config: &Config) -> Vec<Vec<String>> {
             }
             buf.push_str(&format!("Now Working on variation: {}\n", i + 1));
             buf.push_str(&format!("Variation Now: {:?}\n", variations[i]));
+            buf.push_str(&format!("In Comment: {}\n", in_comment));
             buf.push_str("\n\n");
-        } else if pli.contains("...") | pli.contains('$') | pli.contains('{') | pli.contains('}') {
+        } else if pli.contains('(') {
+            variations.insert(i, variations[i].clone());
+            i += 1;
+            variations[i].pop();
             buf.push_str(&format!("Pli: {}\n", pli));
-            buf.push_str("Action: Nothing\n");
+            buf.push_str("Action: New Variation\n");
             buf.push_str(&format!("Variation: {:?}\n", variations[i]));
             buf.push_str(&format!("Working on variation: {}\n", i + 1));
             buf.push_str(&format!("Number of variations: {}\n", variations.len()));
             buf.push_str(&format!("Pli Number: {}\n", len + 1));
+            buf.push_str(&format!("In Comment: {}\n", in_comment));
             buf.push_str("\n\n");
         } else {
             variations[i].push(pli.to_string());
@@ -134,6 +165,7 @@ pub fn split(config: &Config) -> Vec<Vec<String>> {
             buf.push_str(&format!("Working on variation: {}\n", i + 1));
             buf.push_str(&format!("Number of variations: {}\n", variations.len()));
             buf.push_str(&format!("Pli Number: {}\n", len + 1));
+            buf.push_str(&format!("In Comment: {}\n", in_comment));
             buf.push_str("\n\n");
         }
     }
