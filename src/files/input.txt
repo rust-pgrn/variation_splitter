@@ -1,47 +1,40 @@
-1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. Nc3 Bb4 {[%csl Ge4]} 5. e3 (5. g3 {[%cal Gf1g2]
-} Bb7 6. Bg2 O-O 7. O-O Bxc3 8. bxc3 {[%csl Rc3,Rc4][%cal Gb8c6,Gc6a5,Ga5c4,
-Gb7a6]} d6 9. d5 (9. Re1 h6 10. Bh3 (10. Bf1 Re8 11. a4 a5 12. Nh4 e5 13. dxe5
-dxe5 14. Qxd8 Rxd8 15. Ba3 Nbd7 16. Nf5 g6 $15 {0-1 (52) Harikrishna,P (2680)
--Grischuk,A (2719) Foros 2006} 17. Nxh6+ (17. Ne3 {[%csl Gb7,Rc3,Rc4][%cal
-Gb7h1]}) 17... Kg7) 10... Re8 11. Qc2 Nc6 12. d5 Na5 $17 {[%csl Rc3,Rc4][%cal
-Gb7a6,Ga8c8,Yc7c6,Yc6d5] 0-1 (28) Bluebaum,M (2521) -Meier,G (2652) Baden
-Baden 2014}) (9. Bg5 Nbd7 10. Nd2 Bxg2 11. Kxg2 h6 12. Bxf6 Nxf6 13. Qc2 c5
-$132 {[%csl Rc3,Rc4] 0-1 (35) Srebrnic,A (2177)-Epishin,V (2667) Nova Gorica
-2000}) (9. a4 Nc6 10. Qc2 Na5 11. Nd2 {[%csl Rc4]} Bxg2 12. Kxg2 c5 $15 {[%csl
-Rc4] 0-1 (42) Adamopoulos,I (2070) -Tiviakov,S (2623) Vrachati 2011}) 9... Nbd7
-10. Nd4 Ne5 11. dxe6 Bxg2 12. Kxg2 Qe8 13. exf7+ Qxf7 14. Qb3 Nxc4 {[%csl Ra2,
-Ga7,Gb6,Rc3,Gc7,Gd6,Re2,Rf2,Rg3,Gg7,Rh2,Gh7] 0-1 (23) Kazhgaleyev,M (2640)
--Ivanchuk,V (2786) Almaty 2008}) 5... Bb7 6. Bd3 O-O 7. O-O c5 8. Na4 (8. a3
-Bxc3 9. bxc3 {[%csl Rc3,Rc4][%cal Ga2a3]} Be4 10. Be2 Nc6 11. Nd2 Bg6 {[%csl
-Rc4][%cal Gc6a5,Ga8c8]} 12. Nb3 Ne4 (12... Rc8 13. a4 d5 14. Ba3 Ne4 15. Rc1
-$14 {[%csl Ga3,Ge2][%cal Ga3f8,Ge2a6] 0-1 (34) Warner,D (2204) -Fedorchuk,S 
-(2652) Schoelcher 2013}) 13. Qe1 Nd6 $1 {[%csl Rc4,Gd6]} 14. Qd1 {1/2-1/2 (14)
-Najdorf,M-Smyslov,V Zuerich 1953 ,Microsoft: '1/2-1/2 (14) Najdorf,M-Smyslov,V
-Zuerich 1953'} (14. f3 Bc2 $1 15. Nd2 Na5 16. e4 Rc8 17. e5 Nf5 18. Ra2 Ba4)) (
-8. Bd2 cxd4 9. exd4 d5 10. cxd5 Nxd5 11. Re1 (11. Qc2 Nf6 {[%csl Rh7]} 12. Ne4
-Bxd2 13. Nxf6+ Qxf6 14. Bxh7+ Kh8 15. Be4 Rc8 16. Qd3 Bxe4 17. Qxe4 {[%csl Ra8,
-Rd2]} Nc6 18. Nxd2 Qxd4 $11 {0-1 (27) Cori Tello,D (2434)-Nakamura,H (2772)
-Tromsoe 2013}) (11. Nxd5 Bxd2 12. Nxb6 axb6 13. Nxd2 Qxd4 $11 {0-1 (55)
-Korelov, A-Keres,P Moscow 1965}) 11... Nd7 12. Qe2 Bd6 $11 {1/2-1/2 (40)
-Bolbochan, J-Keres,P Buenos Aires 1954 1/2-1/2 (40) Bolbochan, J-Keres,P
-Buenos Aires 1954}) 8... cxd4 {[%cal Gb4e7]} 9. exd4 Re8 {[%cal Gb4f8,Gg7g6,
-Yf8g7]} 10. a3 Bf8 11. b4 (11. Bf4 Bxf3 (11... d6 12. Re1 Nbd7 13. Rc1 (13. Nc3
-$5 e5 14. dxe5 Bxf3 15. Qxf3 Nxe5 {[%csl Rd3,Rf3]} 16. Qh3 $14 {[%csl Ga3,Ra7,
-Gb2,Rb6,Gc4,Rd6,Gf2,Rf7,Gg2,Rg7,Gh2,Rh7]}) 13... e5 14. dxe5 Bxf3 15. Qxf3 Nxe5
-16. Bxe5 (16. Qh3 Nxd3 17. Qxd3 d5 $11 18. Rxe8 Qxe8 {[%csl Ra4]}) 16... dxe5
-$11 {1/2-1/2 (30) Carlsen,M (2815)-Karjakin, S (2776) Medias 2011}) 12. Qxf3
-Nc6 {[%csl Ga4,Gd3,Rd4,Gd7,Gf3,Gf4][%cal Gd7d5,Gd7d6]} 13. d5 (13. Qe3 d5 14.
-Rad1 dxc4 15. Bxc4 Nd5 $11) 13... exd5 14. cxd5 Ne5 15. Qd1 {'??'} Nxd3 16.
-Qxd3 Re4 {[%csl Ra4,Rf4] 0-1 (16) Yu Yangyi (2736)-Carlsen,M (2834) Doha QAT
-2015}) 11... a5 12. b5 {[%csl Gc5,Gd4][%cal Gb8d7,Gd7c5]} d6 {[%cal Gb8d7]} 13.
-Bb2 (13. Be3 Nbd7 14. Nd2 d5 $1 $11 {[%cal Gd2b3] This pawnbreak is possible
-due to the fact that White now can't play c5.} (14... Rc8 15. Nb3 e5 (15... d5
-$2 16. c5 $16 {[%csl Gb5,Gc5][%cal Gc5c6]}) 16. d5 Nc5 17. Nbxc5 dxc5 {0-1 (50)
-Michalik,P (2579) -Nisipeanu,L (2670) Pardubice CZE 2013} 18. f3 $16 {[%csl
-Gc4,Gd5]}) 15. c5 bxc5 16. dxc5 d4 17. Bxd4 Nxc5 18. Nxc5 Bxc5 19. Bxc5 Qxd3 {
-[%csl Rb5,Gb7,Gd3,Gd5,Gf6][%cal Gb7g2]}) 13... Nbd7 14. Re1 Rc8 15. Rc1 g6 {
-Activating the Bishop of f8 onto the a1-h8 diagonal.} (15... d5 $11) 16. h3 d5
-17. Nd2 dxc4 18. Nxc4 Nd5 19. Be4 Rc7 {[%csl Rd4]} 20. Qd2 Qb8 $11 {[%cal
-Ge8c8,Gb8a8] 1/2-1/2 (50) Bruzon Batista,L (2706)-Carlsen,M (2848) Mexico City
-2012} *
-
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. Nc3 Bb4 5. Bg5 Bb7 6. e3 (6. Nd2 {[%csl Gc4,
+Gd4,Ge4][%cal Ge2e4]} h6 7. Bh4 Nc6 {[%csl Rd4][%cal Ge2e4]} 8. e3 (8. a3 Bxc3
+9. bxc3 Qe7 10. e3 g5 11. Bg3 d6 12. h4 {[%csl Rh8][%cal Gh4g5]} O-O-O {[%csl
+Gb8][%cal Gc8b8]} 13. Be2 Nd7 (13... Na5 $5 {[%csl Rc4]}) 14. Nb3 f5 {[%cal
+Gf5f4,Gb8h2]} 15. Qc2 Rhf8 {[%cal Gf5f4]} 16. f3 e5 {[%csl Ge2,Gg3]} 17. hxg5
+hxg5 18. O-O-O {[%csl Rc1,Rc3,Rc4]} Rde8 19. Bd3 {[%csl Rf5]} Qf7 20. Rh6 Ba6
+$132 {[%csl Rc4][%cal Ga6c4] 0-1 (62) Bacrot,E (2705) -Carlsen,M (2765) Baku
+AZE 2008}) 8... Ne7 (8... Bxc3 9. bxc3 g5 10. Bg3 d6 11. Bd3 Qe7 12. O-O O-O-O
+13. Qa4 h5 14. h4 Rdg8 $40 {[%cal Gg8g2,Gb7g2] 0-1 (27) Morchiashvili,B (2421)
+-Van Wely,L (2677) Baku AZE 2008}) 9. f3 (9. Bxf6 gxf6 10. Qb3 c5 {[%csl Rd4]}
+11. d5 (11. a3 Bxc3 12. Qxc3 cxd4 13. exd4 Rc8 $15 {[%csl Gd5,Ge7,Gf1,Rg2]
+[%cal Gb7g2,Gf1e2]} (13... d5 14. c5 $5 {[%csl Rd5][%cal Gb7g2,Gb2b4] 1/2-1/2 
+(28) Azmaiparashvili,Z (2658)-Markus,R (2595) Nova Gorica 2006}) 14. Rg1 Qc7 {
+[%csl Gc7,Gf6,Gf7][%cal Gc7h2]} 15. g3 O-O 16. Bg2 Bxg2 17. Rxg2 d5 $17 {[%csl
+Gd5][%cal Gc4c5,Gd5c4,Ge7d5]}) 11... Qb8 (11... f5 12. O-O-O Ng6 13. a3 Bxc3
+14. Qxc3 Qc7 {[%csl Gh8][%cal Gg6h8]} 15. Bd3 {[%cal Ge8c8] 1/2-1/2 (15)
+Vitiugov,N (2596) -Tomashevsky,E (2595) Moscow 2006})) (9. a3 Bxc3 10. bxc3 Nf5
+{[%csl Gh4]} 11. Bg3 Qe7 12. a4 d6 13. a5 O-O 14. a6 Bc6 15. Qc2 Nxg3 16. hxg3
+e5 $132 {[%cal Ga8b8,Yb6b5] 0-1 (32) Mu Ke (2392)-Van Wely,L (2665) Canberra
+AUS 2015}) 9... Nf5 10. Bf2 c5 $1 {[%csl Rd4]} (10... O-O $2 11. e4) 11. dxc5
+Bxc5 {[%csl Re3]} 12. e4 Ne3 13. Qb3 (13. Bxe3 Bxe3 {[%csl Ge3]}) 13... O-O (
+13... Qb8 $5 {[%csl Ge5,Gf4][%cal Gb8f4]}) 14. e5 {1/2-1/2 (40) Feller,S (2526)
+-Carlsen,M (2786) Cap d'Agde FRA 2008} Nxf1 15. Rxf1 Bxf2+ 16. Rxf2 Ne8 17.
+O-O-O Qc7 $11 {[%cal Gd7d6]}) 6... c5 7. Bd3 cxd4 8. exd4 h6 (8... Bxc3+ 9.
+bxc3 d6 10. O-O Nbd7 11. Re1 O-O 12. Rb1 Qc7 {[%csl Rc3,Rc4]} 13. Qe2 Rac8 14.
+Nd2 Rfe8 15. f4 d5 $15 {0-1 (39) Serra Labrador,C (1964)-Kortschnoj,V (2600)
+Banyoles 2006}) 9. Bh4 O-O (9... Bxf3 10. Qxf3 Nc6 11. Qe3 (11. d5 Ne5 12. Qe2
+Bxc3+ 13. bxc3 Nxd3+ 14. Qxd3 {0-1 (26) Vaingorten,Y (2343)-Divljan,I (2260)
+Toronto 2002} O-O 15. O-O Rc8 $132 {[%csl Rc4]}) 11... Ng4 (11... Be7 12. O-O (
+12. Bg3 d5 13. O-O Nb4 14. cxd5 Nxd3 15. Qxd3 Nxd5 16. Qb5+ Qd7 $11 {0-1 (41)
+Schweber,S-Keres,P Tel Aviv 1964}) 12... O-O (12... Nb4 13. a3 Nxd3 14. Qxd3
+O-O 15. b4 $14 d6 (15... Rc8 16. Rac1 Nh5 17. Bxe7 Qxe7 18. c5 d6 19. c6 $16 {
+1-0 (32) Socko,B (2621)-Laznicka,V (2602) Polanica Zdroj 2006})) 13. Bg3 d5 14.
+cxd5 Nxd5 15. Qe4 g6 16. Ba6 $14 {[%csl Rb7,Rc6,Rd7]}) 12. Qg3 $1 g5 13. Qxg4
+gxh4 14. Qg7 Ke7 15. d5 $40 {0-1 (78) Jobava,B (2543)-Ehlvest,J (2630) Dubai
+2001}) 10. O-O Be7 11. Re1 d6 (11... d5 $5 12. Bxf6 Bxf6 13. cxd5 exd5 14. Ne5
+Nc6 $132) 12. h3 (12. b4 Nbd7 13. a4 a5 14. bxa5 (14. b5 d5 {[%cal Ge7b4]})
+14... Rxa5 15. Nb5 d5 $11 {[%csl Ga5,Gb7,Gd7,Ge7,Gf6] 0-1 (58) Biolek,R (2461)
+-Stocek,J (2559) Havlickuv Brod CZE 2015}) 12... Nbd7 13. Bg3 d5 $11 {1-0 (76)
+Bologan,V (2663)-Iordachescu,V (2586) Moscow 2008} *

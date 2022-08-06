@@ -71,113 +71,127 @@ pub fn clean(contents: String) -> String {
     }
     s
 }
+pub struct Data {
+    pub variations: Vec<Vec<String>>,
+    pub i: usize,
+    pub buf: String,
+    pub in_comment: bool,
+}
+impl Default for Data {
+    fn default() -> Self {
+        let mut variations: Vec<Vec<String>> = Vec::new();
+        let i = variations.len();
+
+        variations.push(Vec::new());
+
+        let buf = String::new();
+
+        let in_comment = false;
+        Data {
+            variations,
+            i,
+            buf,
+            in_comment,
+        }
+    }
+}
+impl Data {
+    pub fn subtract_i(&mut self, pli: &str) {
+        let mut after_brace = true;
+        if pli.contains('}') {
+            after_brace = false;
+        }
+        for c in pli.chars() {
+            if c == '}' {
+                after_brace = true;
+            }
+            if c == ')' && after_brace {
+                self.i -= 1;
+            }
+        }
+    }
+    pub fn log(&mut self, pli: &str, len: usize, after_subtract_i: bool, action: String) {
+        if !after_subtract_i {
+            self.buf.push_str(&format!("Pli: {}\n", pli));
+            self.buf.push_str(&format!("Action: {}\n", action));
+            self.buf
+                .push_str(&format!("Variation: {:?}\n", self.variations[self.i]));
+            self.buf
+                .push_str(&format!("Working on variation: {}\n", self.i + 1));
+            self.buf.push_str(&format!(
+                "Number of variations: {}\n",
+                self.variations.len()
+            ));
+            self.buf.push_str(&format!("Pli Number: {}\n", len + 1));
+            self.buf
+                .push_str(&format!("In Comment: {}\n", self.in_comment));
+            self.buf.push_str("\n\n")
+        } else {
+            self.buf
+                .push_str(&format!("Now Working on variation: {}\n", self.i + 1));
+            self.buf
+                .push_str(&format!("Variation Now: {:?}\n", self.variations[self.i]));
+            self.buf.push_str("\n\n");
+        }
+    }
+}
+
 pub fn split(config: &Config) -> Vec<Vec<String>> {
     let contents = contents(config.input_file);
 
     let contents = clean(contents);
+    //-----------------------------------//
 
-    let mut variations: Vec<Vec<String>> = Vec::new();
-    let mut i = variations.len();
-
-    variations.push(Vec::new());
-
-    let mut buf = String::new();
-
-    let mut in_comment = false;
+    let mut data = Data::default();
 
     for (len, pli) in contents.split(' ').enumerate() {
         if pli.contains('}') {
-            in_comment = false;
+            data.in_comment = false;
             if pli.contains(')') {
-                buf.push_str("Action:  Moving Back Variation\n");
-                buf.push_str(&format!("Variation: {:?}\n", variations[i]));
-                buf.push_str(&format!("Working on variation: {}\n", i + 1));
-                buf.push_str(&format!("Number of variations: {}\n", variations.len()));
-                buf.push_str(&format!("Pli Number: {}\n", len + 1));
-                buf.push_str(&format!("In Comment: {}\n", in_comment));
-                for c in pli.chars() {
-                    if c == ')' {
-                        i -= 1;
-                    }
-                }
-                buf.push_str(&format!("Now Working on variation: {}\n", i + 1));
-                buf.push_str(&format!("Variation Now: {:?}\n", variations[i]));
-                buf.push_str("\n\n");
-            }
-        } else if pli.contains("...")
-            | pli.contains('$')
-            | pli.contains('{')
-            | pli.contains('%')
-            | in_comment
-        {
-            buf.push_str(&format!("Pli: {}\n", pli));
-            buf.push_str("Action: Nothing\n");
-            buf.push_str(&format!("Variation: {:?}\n", variations[i]));
-            buf.push_str(&format!("Working on variation: {}\n", i + 1));
-            buf.push_str(&format!("Number of variations: {}\n", variations.len()));
-            buf.push_str(&format!("Pli Number: {}\n", len + 1));
-            buf.push_str(&format!("In Comment: {}\n", in_comment));
-            buf.push_str("\n\n");
-            if pli.contains('{') {
-                in_comment = true;
-            }
-        } else if pli.contains(')') {
-            buf.push_str(&format!("Pli: {}\n", pli));
-            if &pli[0..1] != ")" && &pli[0..1] != "$" && !pli.contains('{') && !pli.contains('}') {
-                variations[i].push(pli.replace(')', ""));
-                buf.push_str(&format!(
-                    "Action:  Adding {} & Moving Back Variation\n",
-                    pli
-                ));
+                data.log(pli, len, false, "Moving Back Variation".to_string());
+                data.subtract_i(pli);
+                data.log(pli, len, true, "".to_string());
             } else {
-                buf.push_str("Action:  Moving Back Variation\n");
+                data.log(pli, len, false, "Nothing".to_string());
             }
-            buf.push_str(&format!("Variation: {:?}\n", variations[i]));
-            buf.push_str(&format!("Working on variation: {}\n", i + 1));
-            buf.push_str(&format!("Number of variations: {}\n", variations.len()));
-            buf.push_str(&format!("Pli Number: {}\n", len + 1));
-            for c in pli.chars() {
-                if c == ')' {
-                    i -= 1;
-                }
+        } else if pli.contains('{') | data.in_comment {
+            if pli.contains('{') {
+                data.in_comment = true;
             }
-            buf.push_str(&format!("Now Working on variation: {}\n", i + 1));
-            buf.push_str(&format!("Variation Now: {:?}\n", variations[i]));
-            buf.push_str(&format!("In Comment: {}\n", in_comment));
-            buf.push_str("\n\n");
+            data.log(pli, len, false, "Nothing".to_string());
+        } else if pli.contains(')') {
+            let mut action;
+            if &pli[0..1] != ")" && !pli.contains('$') {
+                data.variations[data.i].push(pli.replace(')', ""));
+                action = format!("Adding {} & moving Back Variation", pli);
+            } else {
+                action = "Moving Back Variation".to_string();
+            };
+            data.log(pli, len, false, action);
+            data.subtract_i(pli);
+            data.log(pli, len, true, String::new());
         } else if pli.contains('(') {
-            variations.insert(i, variations[i].clone());
-            i += 1;
-            variations[i].pop();
-            buf.push_str(&format!("Pli: {}\n", pli));
-            buf.push_str("Action: New Variation\n");
-            buf.push_str(&format!("Variation: {:?}\n", variations[i]));
-            buf.push_str(&format!("Working on variation: {}\n", i + 1));
-            buf.push_str(&format!("Number of variations: {}\n", variations.len()));
-            buf.push_str(&format!("Pli Number: {}\n", len + 1));
-            buf.push_str(&format!("In Comment: {}\n", in_comment));
-            buf.push_str("\n\n");
+            data.variations
+                .insert(data.i, data.variations[data.i].clone());
+            data.i += 1;
+            data.variations[data.i].pop();
+            data.log(pli, len, false, "New Variation ".to_string());
+        } else if pli.contains('$') | pli.contains("...") {
+            data.log(pli, len, false, "Nothing".to_string());
         } else {
-            variations[i].push(pli.to_string());
-            buf.push_str(&format!("Pli: {}\n", pli));
-            buf.push_str(&format!("Action: Adding {}\n", pli));
-            buf.push_str(&format!("Variation: {:?}\n", variations[i]));
-            buf.push_str(&format!("Working on variation: {}\n", i + 1));
-            buf.push_str(&format!("Number of variations: {}\n", variations.len()));
-            buf.push_str(&format!("Pli Number: {}\n", len + 1));
-            buf.push_str(&format!("In Comment: {}\n", in_comment));
-            buf.push_str("\n\n");
+            data.variations[data.i].push(pli.to_string());
+            data.log(pli, len, false, format!("adding {}", pli));
         }
     }
 
     if let Order::Side = config.order {
-        variations.reverse();
-        buf.push_str("Reversing order");
+        data.variations.reverse();
+        data.buf.push_str("Reversing order");
     };
 
-    fs::write(config.logs_file, buf).unwrap();
+    fs::write(config.logs_file, data.buf).unwrap();
 
-    variations
+    data.variations
 }
 pub fn convert(v: &Vec<Vec<String>>) -> String {
     let mut s = String::new();
