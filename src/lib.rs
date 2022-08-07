@@ -14,6 +14,7 @@ pub struct Config<'a> {
     pub logs_file: &'a str,
     pub color: Color,
     pub order: Order,
+    pub clean_first: bool,
 }
 impl<'a> Config<'a> {
     pub fn new(mut args: env::Args) -> Result<Config<'a>, &'a str> {
@@ -48,19 +49,56 @@ impl<'a> Config<'a> {
             }
             None => return Err("No order specified"),
         };
+
+        let clean_first = match args.next() {
+            Some(arg) => {
+                if arg == "y" || arg == "yes" {
+                    true
+                } else if arg == "n" || arg == "no" {
+                    false
+                } else {
+                    return Err("Not an answer");
+                }
+            }
+            None => return Err("No clean first specified"),
+        };
         Ok(Config {
             input_file,
             output_file,
             logs_file,
             color,
             order,
+            clean_first,
         })
     }
 }
 pub fn contents(filename: &str) -> String {
     fs::read_to_string(filename).expect("File Not Found")
 }
-pub fn clean(contents: String) -> String {
+pub fn remove_headers(contents: &mut String, clean_first: bool) {
+    let mut buf = String::new();
+    if clean_first {
+        let mut lines = contents.lines();
+        for _i in 0..=19 {
+            lines.next();
+        }
+        *contents = lines.collect();
+    }
+
+    let mut counter = 0;
+    for line in contents.lines() {
+        if line.ends_with('*') {
+            buf.push_str(&format!("{}\n", line));
+            counter = 19;
+        }
+        if counter <= 0 {
+            buf.push_str(&format!("{}\n", line));
+        }
+        counter -= 1;
+    }
+    *contents = buf;
+}
+pub fn clean(contents: &mut String) {
     let mut s = String::new();
     for i in contents.chars() {
         if i == '\n' {
@@ -69,7 +107,7 @@ pub fn clean(contents: String) -> String {
             s.push(i);
         }
     }
-    s
+    *contents = s;
 }
 pub struct Data {
     pub variations: Vec<Vec<String>>,
@@ -137,9 +175,11 @@ impl Data {
 }
 
 pub fn split(config: &Config) -> Vec<Vec<String>> {
-    let contents = contents(config.input_file);
+    let mut contents = contents(config.input_file);
 
-    let contents = clean(contents);
+    remove_headers(&mut contents, config.clean_first);
+
+    clean(&mut contents);
     //-----------------------------------//
 
     let mut data = Data::default();
@@ -178,6 +218,9 @@ pub fn split(config: &Config) -> Vec<Vec<String>> {
             data.log(pli, len, false, "New Variation ".to_string());
         } else if pli.contains('$') | pli.contains("...") {
             data.log(pli, len, false, "Nothing".to_string());
+        } else if pli.contains('*') {
+            data.variations.push(Vec::new());
+            data.i = data.variations.len() - 1;
         } else {
             data.variations[data.i].push(pli.to_string());
             data.log(pli, len, false, format!("adding {}", pli));
