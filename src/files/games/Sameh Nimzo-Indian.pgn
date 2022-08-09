@@ -1,0 +1,540 @@
+﻿[Event "?"]
+[Site "S&S: The Nimzo-Indian"]
+[Date "????.??.??"]
+[Round "?"]
+[White "4.Nf3"]
+[Black "?"]
+[Result "*"]
+[PlyCount "8"]
+[SourceTitle "S&S: The Nimzo-Indian"]
+[Source "Chessable.com"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Nf3 d5 *
+
+[Event "?"]
+[Site "S&S: The Nimzo-Indian"]
+[Date "????.??.??"]
+[Round "?"]
+[White "4.Bd2"]
+[Black "?"]
+[Result "*"]
+[ECO "E52"]
+[PlyCount "22"]
+[SourceTitle "S&S: The Nimzo-Indian"]
+[Source "Chessable.com"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Bd2 O-O 5. Nf3 d5 6. e3 b6 7. cxd5 exd5 8. Bd3
+Bb7 9. O-O Nbd7 10. Rc1 Be7 11. Be1 c5 *
+
+[Event "S&S: The Nimzo-Indian"]
+[Site "S&S: The Nimzo-Indian"]
+[Date "????.??.??"]
+[Round "?"]
+[White "4.Qb3"]
+[Black "?"]
+[Result "*"]
+[ECO "E23"]
+[Annotator "John Emms"]
+[PlyCount "18"]
+[SourceTitle "S&S: The Nimzo-Indian"]
+[Source "Chessable.com"]
+
+{[%evp 0,18,26,26,26,6,6,4,5,-10,-7,-11,-4,-3,-29,-30,-34,-24,-6,-28,-19]} 1.
+d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qb3 c5 5. dxc5 Nc6 6. Nf3 (6. Bg5 h6 7. Bxf6 Qxf6
+8. Nf3 b6 $5 (8... Bxc3+ 9. Qxc3 Qxc3+ 10. bxc3 b6 11. cxb6 axb6 12. e4 Ra4))
+6... Ne4 7. Bd2 Nxd2 8. Nxd2 Bxc5 9. e3 O-O *
+
+[Event "S&S: The Nimzo-Indian"]
+[Site "S&S: The Nimzo-Indian"]
+[Date "????.??.??"]
+[Round "?"]
+[White "4.Bg5 with 5.e3"]
+[Black "?"]
+[Result "*"]
+[ECO "E30"]
+[Annotator "A"]
+[PlyCount "18"]
+[SourceTitle "S&S: The Nimzo-Indian"]
+[Source "Chessable.com"]
+
+{[%evp 0,18,30,23,23,19,18,26,34,-10,2,0,-78,-64,-46,-20,-6,-6,-6,6,10]} 1. d4
+Nf6 2. c4 e6 3. Nc3 Bb4 4. Bg5 c5 5. e3 (5. d5 d6 6. e3 exd5 7. cxd5 Nbd7) 5...
+Qa5 6. Nge2 (6. Bxf6 Bxc3+ 7. bxc3 Qxc3+ 8. Ke2 Qb2+ 9. Ke1 gxf6) 6... Ne4 7.
+Qd3 d5 8. Bf4 cxd4 9. exd4 Nc6 *
+
+[Event "Short & Sweet: The Nimzo-Indian"]
+[Site "S&S: The Nimzo-Indian"]
+[Date "????.??.??"]
+[Round "?"]
+[White "4.a3 with 9.Bg5"]
+[Black "?"]
+[Result "*"]
+[ECO "E27"]
+[PlyCount "28"]
+[SourceTitle "S&S: The Nimzo-Indian"]
+[Source "Chessable.com"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. a3 Bxc3+ 5. bxc3 O-O 6. f3 Nc6 7. e4 d6 8. Bd3
+b6 9. Bg5 h6 10. Bh4 e5 11. Ne2 Na5 12. O-O g5 13. Bf2 Nh5 14. Qc2 Ba6 *
+
+[Event "?"]
+[Site "S&S: The Nimzo-Indian"]
+[Date "????.??.??"]
+[Round "?"]
+[White "4.a3 with 9.Ne2"]
+[Black "?"]
+[Result "*"]
+[ECO "E27"]
+[PlyCount "26"]
+[SourceTitle "S&S: The Nimzo-Indian"]
+[Source "Chessable.com"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. a3 Bxc3+ 5. bxc3 O-O 6. f3 Nc6 7. e4 d6 8. Bd3
+b6 9. Ne2 Nd7 10. O-O Na5 11. Ng3 Ba6 12. Qe2 c5 13. Be3 Rc8 *
+
+[Event "?"]
+[Site "S&S: The Nimzo-Indian"]
+[Date "????.??.??"]
+[Round "?"]
+[White "4.f3 with 9.e4"]
+[Black "?"]
+[Result "*"]
+[ECO "E25"]
+[PlyCount "28"]
+[SourceTitle "S&S: The Nimzo-Indian"]
+[Source "Chessable.com"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. f3 d5 5. a3 Bxc3+ 6. bxc3 c5 7. cxd5 Nxd5 8.
+dxc5 f5 9. e4 fxe4 10. Qc2 Qh4+ 11. g3 Qh5 12. Be2 Nf6 13. fxe4 Qxc5 14. Rb1 a6
+*
+
+[Event "?"]
+[Site "S&S: The Nimzo-Indian"]
+[Date "????.??.??"]
+[Round "?"]
+[White "4.f3 with 9.Nh3"]
+[Black "?"]
+[Result "*"]
+[ECO "E25"]
+[PlyCount "30"]
+[SourceTitle "S&S: The Nimzo-Indian"]
+[Source "Chessable.com"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. f3 d5 5. a3 Bxc3+ 6. bxc3 c5 7. cxd5 Nxd5 8.
+dxc5 f5 9. Nh3 Qa5 10. Nf4 Nc6 11. Nxd5 exd5 12. Qd3 Qxc5 13. Bf4 O-O 14. e3
+Be6 15. Be2 Rac8 *
+
+[Event "S&S: The Nimzo-Indian"]
+[Site "S&S: The Nimzo-Indian"]
+[Date "????.??.??"]
+[Round "?"]
+[White "4.e3 with 5.Nge2 "]
+[Black "?"]
+[Result "*"]
+[ECO "E46"]
+[Annotator "A"]
+[PlyCount "32"]
+[SourceTitle "S&S: The Nimzo-Indian"]
+[Source "Chessable.com"]
+
+{[%evp 0,32,31,32,28,7,7,15,25,20,24,-2,-2,3,17,10,23,14,24,9,30,28,32,5,6,10,
+10,9,44,36,32,22,18,18,30]} 1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 O-O 5. Nge2 d5
+6. a3 Be7 7. cxd5 exd5 8. Nf4 (8. g3 Re8 9. Bg2 c6 10. O-O Nbd7 11. f3 c5 12.
+Nf4 cxd4 13. Ncxd5 Nxd5 14. Nxd5 dxe3 15. Bxe3 Nf6 16. Nxe7+ Qxe7) 8... c6 9.
+Bd3 Na6 10. O-O Nc7 11. f3 Ne6 12. Nxe6 Bxe6 13. Bd2 Ne8 14. Qc2 f5 15. Ne2 Nd6
+16. Nf4 Qd7 *
+
+[Event "?"]
+[Site "S&S: The Nimzo-Indian"]
+[Date "????.??.??"]
+[Round "?"]
+[White "4.e3 with 5.a3"]
+[Black "?"]
+[Result "*"]
+[ECO "E40"]
+[PlyCount "26"]
+[SourceTitle "S&S: The Nimzo-Indian"]
+[Source "Chessable.com"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 O-O 5. a3 Bxc3+ 6. bxc3 Nc6 7. Bd3 e5 8.
+Ne2 e4 9. Bb1 b6 10. Ng3 Ba6 11. Nxe4 Nxe4 12. Bxe4 Bxc4 13. Bd3 Na5 *
+
+[Event "?"]
+[Site "S&S: The Nimzo-Indian"]
+[Date "????.??.??"]
+[Round "?"]
+[White "4.e3 with 5.Bd3"]
+[Black "?"]
+[Result "*"]
+[ECO "E52"]
+[PlyCount "30"]
+[SourceTitle "S&S: The Nimzo-Indian"]
+[Source "Chessable.com"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 O-O 5. Bd3 d5 6. Nf3 b6 7. O-O Ba6 8. cxd5
+exd5 9. Bxa6 Nxa6 10. Qa4 Qc8 11. Bd2 Re8 12. Rac1 Bf8 13. Rfd1 Qb7 14. Be1
+Rac8 15. Ne5 c6 *
+
+[Event "Short & Sweet: The Nimzo-Indian"]
+[Site "S&S: The Nimzo-Indian"]
+[Date "????.??.??"]
+[Round "?"]
+[White "4.Qc2 with 5.e4"]
+[Black "?"]
+[Result "*"]
+[ECO "E32"]
+[PlyCount "36"]
+[SourceTitle "S&S: The Nimzo-Indian"]
+[Source "Chessable.com"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 O-O 5. e4 d5 6. e5 Ne4 7. Bd3 c5 8. Nf3
+cxd4 9. Nxd4 Nd7 10. Bf4 Ndc5 11. O-O Bxc3 12. bxc3 Bd7 13. Be2 Na4 14. cxd5
+exd5 15. c4 Rc8 16. Rac1 Nac3 17. cxd5 Qa5 18. Bf3 Qxd5 *
+
+[Event "Short & Sweet: The Nimzo-Indian"]
+[Site "S&S: The Nimzo-Indian"]
+[Date "????.??.??"]
+[Round "?"]
+[White "4.Qc2 with 5.Bg5"]
+[Black "?"]
+[Result "*"]
+[ECO "E39"]
+[PlyCount "26"]
+[SourceTitle "S&S: The Nimzo-Indian"]
+[Source "Chessable.com"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 O-O 5. Bg5 c5 6. dxc5 Na6 7. a3 Bxc3+ 8.
+Qxc3 Nxc5 9. Bxf6 Qxf6 10. Qxf6 gxf6 11. b4 Na4 12. e3 b6 13. Nf3 Ba6 *
+
+[Event "Short & Sweet: The Nimzo-Indian"]
+[Site "S&S: The Nimzo-Indian"]
+[Date "????.??.??"]
+[Round "?"]
+[White "4.Qc2 with 5.Nf3"]
+[Black "?"]
+[Result "*"]
+[ECO "E39"]
+[PlyCount "28"]
+[SourceTitle "S&S: The Nimzo-Indian"]
+[Source "Chessable.com"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 O-O 5. Nf3 c5 6. dxc5 Na6 7. g3 Nxc5 8.
+Bg2 Nce4 9. O-O Nxc3 10. bxc3 Be7 11. e4 d6 12. e5 dxe5 13. Nxe5 Qc7 14. Qe2
+Bd6 *
+
+[Event "S&S: The Nimzo-Indian"]
+[Site "S&S: The Nimzo-Indian"]
+[Date "????.??.??"]
+[Round "?"]
+[White "4.Qc2 with 5.a3 "]
+[Black "?"]
+[Result "*"]
+[ECO "E36"]
+[Annotator "A"]
+[PlyCount "28"]
+[SourceTitle "S&S: The Nimzo-Indian"]
+[Source "Chessable.com"]
+
+{[%evp 0,28,26,25,32,9,9,6,29,-8,7,-3,1,-2,7,-34,-8,-56,-56,-56,-19,-19,-8,-4,
+-9,-9,-19,-19,-11,-11,-11]} 1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 O-O 5. a3
+Bxc3+ 6. Qxc3 d5 7. cxd5 (7. Bg5 dxc4 8. Qxc4 b6 9. Rd1 Ba6 10. Qa4 h6 11. Bh4
+Qe7 12. Nf3 Rd8 13. e3 Bxf1 14. Rxf1 Nbd7) (7. e3 b6 8. Nf3 Bb7 9. Be2 Ne4 10.
+Qc2 dxc4 11. Bxc4 c5) (7. Nf3 dxc4 8. Qxc4 b6 9. Bf4 (9. Bg5 Ba6 10. Qa4 c5 11.
+dxc5 bxc5 12. Rd1 Qb6 13. Bxf6 gxf6 14. Rd2 Nc6 15. Qg4+ Kh8) 9... Ba6 10. Qxc7
+Qd5 11. Qc2 Rc8 12. Qb1 Qb3 13. Nd2 Qa4) 7... Ne4 8. Qc2 exd5 9. Bf4 Nc6 10. e3
+Re8 11. Nf3 g5 12. Bg3 g4 13. Ne5 Nxe5 14. Bxe5 c5 *
+
+[Event "Hoogeveen 86/502"]
+[Site "?"]
+[Date "2002.??.??"]
+[Round "?"]
+[White "Van Wely, Loek"]
+[Black "Acs, Peter"]
+[Result "0-1"]
+[ECO "E48"]
+[WhiteElo "2681"]
+[BlackElo "2591"]
+[Annotator "Acs,Peter; Hazai,Laszlo"]
+[PlyCount "36"]
+[EventDate "2002.??.??"]
+[SourceTitle "CI1-130"]
+[Source "Chess Informant"]
+[SourceDate "2016.12.26"]
+[SourceVersion "1"]
+[SourceVersionDate "2016.12.26"]
+[SourceQuality "2"]
+
+{[%evp 0,36,26,26,26,6,6,4,4,38,37,28,27,-1,26,11,16,25,5,9,56,48,48,19,149,67,
+118,98,169,44,0,-22,139,-48,-29988,-29989,-29990,-29991,-29992]} 1. d4 Nf6 2.
+c4 e6 3. Nc3 Bb4 4. e3 O-O 5. Bd3 d5 6. cxd5 exd5 7. Nge2 Re8 8. O-O Bd6 9. a3
+$6 Ng4 $1 10. h3 $2 $146 (10. g3 c6) (10. Nf4 $1 c6 $1 (10... g5 11. Nfxd5 $1 (
+11. Be2 Nxh2 $5 12. Kxh2 gxf4 13. exf4 c6 $5 $13) 11... Bxh2+ 12. Kh1 Qd6 (
+12... Bd6 13. e4 $36) (12... Bg3 13. fxg3 Qd6 14. Kg1 Qh6 15. Qxg4 $18) 13. Be2
+$1 Bg1 14. Nf6+ Nxf6 (14... Qxf6 $2 15. Kxg1 $16) 15. Kxg1 $14) 11. h3 Bxf4 12.
+exf4 Nh6 $13) 10... Nh2 $1 11. Re1 Nf3+ $1 (11... Bxh3 $2 12. gxh3 (12. e4 $5)
+12... Nf3+ 13. Kg2 Nxe1+ 14. Qxe1 $16) 12. gxf3 Qg5+ 13. Kh1 Qh4 $1 (13... Bxh3
+$2 14. Rg1 Qh4 15. Rg3 Re6 16. Kg1 $16) 14. Nf4 $2 (14. Kg1 Bxh3 $1 (14... Qxh3
+$2 15. Nf4) 15. f4 Bg4 {(/\ Bf3)} 16. Qb3 $8 (16. Qa4 Re6 $1 (16... Nd7 $5 17.
+Ng3 Bxf4 18. Nce2 Bd6 $19 {/\ Bf3, Nf6-g4}) 17. Ng3 Rh6 {(/\ Bf3)} 18. Qe8+ Bf8
+19. Nxd5 Nc6 $1 20. Qe4 (20. Qxa8 Qh2+ 21. Kf1 Bf3 $19) 20... Qh2+ 21. Kf1 Re8
+$1 22. Qxe8 Bf3 $19) 16... Bf3 17. Ng3 {(/\ Be2)} Bxf4 $1 18. Nce2 Bd6 19. Bd2
+(19. Qxb7 Nd7 $19) 19... Nd7 20. Nf4 Nf6 21. Ng2 Qh6 (21... Qh3 22. Nf4 Bxf4
+23. Bf1 $1) 22. Be2 Bxg2 (22... Bxe2 $5 23. Rxe2 Ng4 $40) 23. Kxg2 Bxg3 24.
+fxg3 Ne4 25. Red1 Qg5 $40 26. Be1 $140 $2 Nxg3 $1 27. Bxg3 Rxe3 $19) 14... Bxh3
+15. Ncxd5 (15. Nb5 Re6 16. Nxd6 (16. Nxe6 Qxf2 $19) 16... Rh6 $19) 15... Re6 $3
+(15... c6 $2 16. Nc3 $1 (16. e4 cxd5 17. e5 $13) 16... Qxf2 17. Qe2 Qh4 18.
+Nxh3 Qxh3+ 19. Kg1) 16. Nxe6 Bf5+ $1 17. Kg1 Qh2+ 18. Kf1 Bg3 $3 0-1
+
+[Event "Moscow 107/171"]
+[Site "?"]
+[Date "2009.??.??"]
+[Round "?"]
+[White "Carlsen, Magnus"]
+[Black "Kramnik, Vladimir"]
+[Result "1/2-1/2"]
+[ECO "E36"]
+[WhiteElo "2801"]
+[BlackElo "2772"]
+[Annotator "Kramnik,Vladimir"]
+[PlyCount "116"]
+[EventDate "2009.??.??"]
+[SourceTitle "CI1-130"]
+[Source "Chess Informant"]
+[SourceDate "2016.12.26"]
+[SourceVersion "1"]
+[SourceVersionDate "2016.12.26"]
+[SourceQuality "2"]
+
+{[%evp 0,116,26,26,26,2,6,4,-3,-14,-3,0,3,-14,-17,-48,-22,-32,-61,-69,-24,-11,
+-12,-16,-8,-8,-7,-27,-12,-12,-12,-12,23,-27,-59,-69,-82,-72,-72,-72,-75,-72,
+-16,0,-6,-11,13,13,16,0,0,0,-5,-14,-16,-28,-16,-16,-1,-10,-15,-29,-18,-47,-26,
+-26,-19,-38,-40,-80,-68,-64,-38,-33,-6,-6,-1,-50,-44,-5,-29,-67,0,0,43,59,59,
+19,75,5,1,-21,37,-31,-14,-30,-33,-5,0,-154,-154,-178,-224,-199,-108,-108,-48,
+-41,-41,-52,-60,-81,-81,-27,-81,-24,0,-81,-24]} 1. d4 Nf6 2. c4 e6 3. Nc3 Bb4
+4. Qc2 O-O 5. a3 Bxc3+ 6. Qxc3 d5 7. cxd5 Ne4 8. Qc2 exd5 9. Bf4 Nc6 $1 10. e3
+Re8 $146 (10... g5 {� 107/(171)}) 11. Nf3 (11. O-O-O Qh4 (11... Bf5 12. Bd3 Qf6
+$13) 12. f3 Nd6 $13 13. Bd3 $140 Nxd4 14. Bxh7+ Qxh7 15. Qxh7+ Kxh7 16. Rxd4
+Nf5 17. Rxd5 Nxe3 18. Bxe3 Rxe3 19. Kd2 Re8) 11... g5 $1 12. Bg3 g4 $1 (12...
+Bg4 $13) 13. Ne5 Nxe5 14. Bxe5 c5 15. Bd3 Bf5 16. Qe2 $6 (16. Bxe4 $6 Bxe4 17.
+Qxc5 Bxg2 18. Rg1 Bf3 $17) (16. O-O $1 c4 17. Bxe4 Bxe4 18. Qe2 Qg5 $15) 16...
+f6 17. Bxe4 Bxe4 $1 (17... dxe4 18. Bf4 $11 cxd4 19. Qc4+ Be6 20. Qxd4 Qxd4 21.
+exd4 Rac8 22. Kd2) 18. Bg3 Qa5+ 19. Qd2 (19. b4 cxb4 20. O-O b3 21. Rac1 Qa6
+$17 22. Qxg4+ Kh8) 19... Qxd2+ (19... Qa6 $1 20. f3 $1 (20. dxc5 Bxg2 21. Rg1
+Bf3 $17) 20... gxf3 21. gxf3 Bxf3 22. Rg1 (22. Rf1 Bh5 23. Rf5 Bg6 24. Rxd5 Qc6
+25. dxc5 Rxe3+ 26. Qxe3 Qxd5 27. Kf2 Re8 28. Qc3 Bb1 $3 $17) 22... Kh8 23. Kf2
+Bh5 24. dxc5 d4 $1 25. e4 Rxe4 26. Rge1 Rae8 27. Rxe4 Rxe4 28. Re1 Rxe1 29.
+Qxe1 Qb5 $17) 20. Kxd2 c4 {[/\ Re6-b6]} (20... cxd4 21. exd4 Bxg2 22. Rhe1 Be4
+$15 23. Rac1 Re7 24. Rc7 Rxc7 25. Bxc7 Kf7 26. Rc1 Ke6 27. Bg3) 21. f3 $8 gxf3
+22. gxf3 Bg6 23. h4 Bh5 24. Ke2 Re6 25. Be1 $1 Kf7 (25... Rae8 26. Bd2 Rb6 27.
+Bc3 Rbe6 28. Bd2 Rb6 $11) 26. Kf2 Rae8 27. Bd2 Rb6 28. Bc3 Rb3 {[/\ b5, a5, b4]
+} (28... Rbe6 $11) 29. a4 b6 (29... a6 30. a5) 30. Rhe1 Bg6 (30... a6 31. e4)
+31. e4 (31. Kg3 $11 a6 32. Kf4 b5 33. axb5 axb5 34. Ra3 Rxa3 35. bxa3 Ra8 36.
+Bb4 Bd3) 31... dxe4 32. d5 a6 (32... exf3 33. Rxe8 Kxe8 34. Kxf3 b5 35. axb5
+Rxb5 36. Rxa7 Rxd5 $11) (32... h5 33. Rad1 exf3 34. Rxe8 Kxe8 35. Kxf3 b5 36.
+axb5 Rxb5 $11) 33. fxe4 (33. h5 $1 Bxh5 $1 (33... Bf5 34. Re3 $1 exf3 35. Rxf3
+Bg4 36. Rxf6+ Ke7 37. Rh6) 34. Rxe4 Rd8 35. Rd1 b5 36. axb5 axb5 37. Re6 b4 38.
+Rxf6+ Kg8 39. Be5 c3 $11) 33... Bxe4 $15 34. d6 f5 35. Rg1 Ke6 36. Rg7 Kxd6 37.
+Rxh7 Bd3 38. Kf3 $1 (38. h5 Re2+ 39. Kf3 Rexb2 40. Bxb2 Rxb2 41. h6 Rh2 42. Rh8
+Kc5 $15) 38... Re4 39. h5 Rh4 40. Rg1 Be4+ 41. Ke3 Rh3+ 42. Kf4 $5 (42. Kd4 Bd5
+43. Rg6+ Be6 44. Rxe6+ Kxe6 45. Rh6+ Kf7 46. Kxc4 Rbxc3+ 47. bxc3 b5+ 48. axb5
+axb5+ 49. Kxb5 Rxc3 $11) 42... Rf3+ 43. Kg5 b5 (43... Rbxc3 44. bxc3 Rxc3 $11
+45. Ra7 Rh3 46. Rxa6 Kc5 47. a5 bxa5 48. Rxa5+ Kb4) 44. axb5 (44. Rh6+ $142 Kd5
+45. Rxa6 b4 46. Ra5+ Ke6 (46... Kc6 $6 47. Be5 $1) 47. Ra6+ Kd5 48. Ra5+ Ke6
+$11) 44... axb5 45. Kf6 (45. Ra1 $142 Rbxc3 46. bxc3 Rxc3 47. h6 Rh3 48. Ra6+
+Kc5 49. Rc7+ Kb4 $15) 45... Rbxc3 46. bxc3 Rxc3 {[R 9/o]} 47. Rg8 (47. h6 Rh3
+$17) 47... Rh3 (47... Kc5 $1 $17 48. Rc7+ Kb6 49. Re7 Rh3) 48. Rc8 $8 c3 49.
+Rhc7 (49. Rhh8 $1 Bc6 $8 50. Rh6 $1 $11 Kd7 51. Rhh8 Kd6) 49... c2 50. Kg5 $8
+Rh2 (50... b4 51. Rxc2 Bxc2 52. Rxc2 b3 53. Rf2 Ke6 54. h6 Rg3+ 55. Kh4 Rg1 56.
+Rb2 $11) 51. Rc3 (51. Rc5 b4 52. Rc4 Ke5 53. R8c5+ Kd6 54. Rc8 Ke6 55. Rxb4
+Rg2+ 56. Kf4 $11 Rg4+ 57. Ke3) 51... Ke6 (51... Ke5 52. R3c5+ Kd4 53. Rxb5 Rg2+
+(53... Bd3 54. Rbc5 Rg2+ 55. Kh4 Ke3 56. h6 $11 Kf4 57. Kh3) 54. Kh4 Rg4+ 55.
+Kh3 Rg1 56. Rbc5 Rh1+ 57. Kg3 Rxh5 58. Rxc2 $11) 52. Re8+ $8 Kf7 (52... Kd7 53.
+Rec8 b4 54. R3c4 Rd2 55. R8c7+ Kd6 56. Rc8 $11 Ke6 57. Rxb4) 53. Rb8 $8 Rg2+
+54. Kf4 Ke6 (54... Rg1 55. h6 c1=Q+ 56. Rxc1 Rxc1 57. h7 Rh1 58. h8=Q Rxh8 59.
+Rxh8) 55. Re8+ Kf7 56. Rb8 Ke6 57. Re8+ Kf6 58. Rf8+ Ke6 1/2-1/2
+
+[Event "WC 2008"]
+[Site "Bonn"]
+[Date "2008.??.??"]
+[Round "2.2"]
+[White "Anand, V.."]
+[Black "Kramnik, V.."]
+[Result "1/2-1/2"]
+[ECO "E25"]
+[Annotator "John Emms"]
+[PlyCount "64"]
+[EventDate "2008.??.??"]
+[Source "ChessPublishing"]
+
+{[%evp 0,64,19,31,14,-11,-14,0,-7,-78,-69,-63,-36,-36,-17,-28,36,-2,-2,22,-2,
+-1,-1,-1,-1,-7,8,-10,-1,-7,-1,3,3,-4,-4,-10,12,0,0,8,8,13,13,13,9,9,33,29,30,
+30,30,30,56,24,83,27,68,74,54,40,60,65,65,3,12,48,57]} 1. d4 Nf6 2. c4 e6 3.
+Nc3 Bb4 4. f3 {I was wondering which opening would arise in the first game
+with Kramnik as Black: the Petroff, the Berlin Wall, some solid Ruy Lopez, the
+Sveshnikov? No, it's the f3 Nimzo, I should have guessed that! The
+disadvantage of Anand's choice is that Black has quite a few ways of reaching
+a reasonable position against 4 f3 the advantage is that there would be no way
+Kramnik could have predicted this!} d5 5. a3 Bxc3+ 6. bxc3 c5 7. cxd5 Nxd5 8.
+dxc5 f5 ({We've covered} 8... Qa5 {a fair bit on this site, but 8...f5 is
+equally playable.}) 9. Qc2 ({White can also play} 9. e4 fxe4 {and only now} 10.
+Qc2 {. Theory suggests that Black is okay in this line after} e3 (10... O-O {
+transposes to the next note}) (10... exf3 11. Nxf3 {is a good gambit for White}
+) 11. Bd3 Nd7 12. Ne2 (12. c4 Qa5+ 13. Kf1 N5f6 14. Bxe3 Nxc5 {was fine for
+Black in Yakovich-Chandler, Santo Antonio 2001, as given in Yakovich's book})
+12... Nxc5 13. O-O Bd7) 9... Nd7 $5 {This is very rare, but it's quite
+understandable that Kramnik would want to deviate from theory as soon as
+possible.} ({The main line has been} 9... O-O 10. e4 fxe4 11. fxe4 Nf4 12. Nf3
+Qc7 13. Be3 Nd7 14. Bc4 Nxc5 15. O-O Bd7 $11 {(Timman-Karpov, Reykjavik 1991)})
+10. e4 fxe4 11. fxe4 N5f6 12. c6 {White cannot keep his extra pawn (12 Be3 Ng4)
+so at least he forces Black to split his queenside pawns.} bxc6 13. Nf3 Qa5 $1
+{A good, active move, setting up ideas of ...Ba6 and also ...Nxe4.} 14. Bd2 (
+14. Bd3 {runs into} Nc5 $1) (14. Be2 Ba6 $1 {is also fine for Black} ({but not
+} 14... Nxe4 $4 {, which loses to} 15. Qxe4 $1 Qxc3+ 16. Kf2 Qxa1 17. Qxe6+ Kf8
+18. Bf4 Qxh1 19. Bd6#)) 14... Ba6 ({In the only other game I could find
+reaching this position, Gilman-Lepsenyi, correspondence 1966, Black was
+successful with} 14... O-O 15. Bd3 (15. c4 $5) 15... Ba6 16. c4 Qc7 $1 17. Bc3
+(17. O-O Ng4 $1) 17... Ng4 (17... Nc5 {looks fine for Black}) 18. e5 $5 Ndxe5
+19. Bxh7+ Kh8 20. Be4 $2 (20. Nxe5 Nxe5 21. Qe4 $5) 20... Nxc4 21. Qe2 Nd6 $1
+22. Qxa6 Nxe4 23. Qc4 Qf4 24. Bd2 Ne3 25. Qe2 Nxd2 26. Qxd2 Rad8 27. Qe2 Nxg2+
+{0-1. There's nothing wrong with what Kramnik plays, but I quite like this
+idea of dropping the queen back to c7 rather than c5, so that Black can leave
+the c5-square free for the knight.}) 15. c4 Qc5 16. Bd3 Ng4 17. Bb4 Qe3+ 18.
+Qe2 O-O-O 19. Qxe3 Nxe3 20. Kf2 Ng4+ 21. Kg3 Ndf6 {Even though this forces the
+bishop back to b1, Black's knights get in a bit of a tangle and Kramnik can
+only justify his play with a pawn sacrifice.} (21... Nge5 {is solid enough it
+must be very close to equal.}) 22. Bb1 h5 23. h3 h4+ 24. Nxh4 Ne5 25. Nf3 Nh5+
+26. Kf2 Nxf3 27. Kxf3 e5 ({Kramnik has had several opportunities to take on c4,
+but has resisted because this exposes the black king:} 27... Bxc4 $2 28. Rc1)
+28. Rc1 Nf4 29. Ra2 $1 {Black is active, but it's not quite enough
+compensation for the pawn. However, Anand was experiencing some time trouble,
+and it's easy to see ghosts in this sort of position.} Nd3 30. Rc3 Nf4 $1 31.
+Bc2 Ne6 32. Kg3 Rd4 {Kramnik comes up with a timely draw offer, which Anand
+accepts. White is still better here, but it's not easy, especially in time
+trouble.} 1/2-1/2
+
+[Event "Bundesliga 2006-7"]
+[Site "Muelheim GER"]
+[Date "2007.04.01"]
+[Round "15"]
+[White "Stern, R.."]
+[Black "Landa, K.."]
+[Result "0-1"]
+[ECO "E23"]
+[WhiteElo "2476"]
+[BlackElo "2596"]
+[Annotator "John Emms"]
+[PlyCount "20"]
+[EventDate "2007.01.28"]
+[Source "ChessPublishing"]
+
+{[%evp 0,20,26,26,26,6,6,5,6,-39,-4,-6,-6,-37,-10,-15,-26,-31,-31,-5,-5,-181,
+-181]} 1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qb3 {Overall the Spielmann Variation
+is not very popular these days, although a few strong GMs (Akopian, Epishin,
+Malaniuk) do play it occasionally.} c5 5. dxc5 ({For} 5. d5 {see
+Bergsson-Olafsson, Reykjavik 2000, in the archives.}) 5... Nc6 6. Bg5 ({
+The main move is} 6. Nf3 {after which} Ne4 $1 7. Bd2 Nxd2 8. Nxd2 Bxc5 9. e3
+O-O {has been played quite a few times and is equal.}) 6... h6 7. Bxf6 $1 (7.
+Bh4 {allows Black to seize the initiative with} g5 $1 8. Bg3 Ne4 {. After} 9.
+e3 Bxc3+ 10. bxc3 Qa5 11. Bd3 Nxg3 12. hxg3 Qxc5 13. Nf3 b6 {White was
+struggling to equalise in Agdestein-Hjartarson, Reykjavik 1996.}) 7... Qxf6 8.
+Nf3 b6 $5 {A novelty and an interesting pawn sacrifice. Certainly it brings
+about the desired result in this game, but I'm unsure of its objective merits.
+Alternatively:} ({a)} 8... Bxc3+ 9. Qxc3 Qxc3+ 10. bxc3 b6 $1 {looks like a
+safe equaliser. For example,} 11. cxb6 axb6 12. e3 Ke7 13. Be2 Ra4 14. O-O Ba6
+15. Nd2 Ne5 16. Rfb1 Nxc4 17. Bxc4 Bxc4 18. Nxc4 Rxc4 19. Rxb6 Rxc3 20. Rb2
+Rhc8 21. h4 Rc1+ {1/2-1/2 Varga-Z.Almasi, Kazincbarcika 2005.}) ({b)} 8... Bxc5
+9. e3 Qe7 10. Be2 b6 11. O-O Bb7 12. a3 O-O 13. Rfd1 Rac8 14. Rd2 Rfd8 15. Rad1
+{was a bit better for White in Malaniuk-Averkin, Krasnodar 1997. This then
+turned out a lot better for White following} Na5 $6 16. Qa2 Ba6 $2 17. b4 $1
+Bxe3 18. fxe3 Bxc4 19. Bxc4 Nxc4 20. Rd3) ({c)} 8... O-O 9. e3 a5 $5 10. a3 $1
+(10. a4 $6 Nb8 $3 11. Be2 Na6 12. O-O Nxc5 13. Qc2 Bxc3 14. bxc3 d6 15. Rfd1 e5
+{left Black very well placed in A.Hoffman-Slipak, Villa Martelli 1997}) 10...
+a4 11. Qc2 Bxc3+ 12. bxc3 Qe7 (12... Ra5 $5) 13. Be2 Qxc5 14. O-O b6 15. Rfb1
+$1 Ba6 16. Qxa4 $14 {Nogueiras-Schussler, Bayamo 1981.}) 9. cxb6 axb6 10. e3 $2
+{This allows a big tactic.} ({After} 10. Rc1 $1 {the onus is on Black to
+justify his pawn sacrifice. He must do something before White consolidates
+with e2-e3, Be2 etc., but it's not easy to see what.} Bxc3+ $5 (10... O-O 11.
+e3 Ba6 12. Be2 {and then?}) 11. Rxc3 Qf5 12. a3 Qb1+ 13. Kd2 Qg6 (13... Bb7 14.
+Qc2 $1 Qa1 15. e3 O-O 16. Rg1) 14. Qc2 Qf6 15. e3 {and I don't think Black has
+enough for the pawn.}) 10... Ra3 $3 {This move must have come as a terrible
+shock to White, who actually resigned this position.} ({In fact, resignation
+was premature - White can battle on with the unlikely} 10... Ra3 11. Qd1 Rxc3
+12. Nd2 $1 {when Black's rook doesn't have an escape. It's true that Black is
+still clearly better after} Rxe3+ $1 13. fxe3 Qxb2 14. Rc1 Qxa2 15. Qc2 Qa5 {
+but White is still fighting.}) 0-1
+
+[Event "20th ECC"]
+[Site "Izmir TUR"]
+[Date "2004.10.07"]
+[Round "5"]
+[White "Kasparov, G.."]
+[Black "Adams, Mi"]
+[Result "1/2-1/2"]
+[ECO "E37"]
+[WhiteElo "2813"]
+[BlackElo "2740"]
+[Annotator "John Emms"]
+[PlyCount "55"]
+[EventDate "2004.10.03"]
+[Source "ChessPublishing"]
+
+{[%evp 0,55,27,28,25,-8,-5,0,0,-24,-24,-9,-11,2,-6,-6,-3,28,305,33,5,-39,-32,
+41,41,4,-12,-84,-57,-57,-159,-120,-127,-135,-53,-97,-78,-78,-5,-1,8,-123,-3,-3,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0]} 1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 d5 5. a3
+Bxc3+ 6. Qxc3 Ne4 7. Qc2 Nc6 {This leads to extremely sharp play.} (7... e5 $5
+{looks to be a playable alternative, e.g.} 8. e3 exd4 9. cxd5 Qxd5 10. Nf3 Nd6
+11. Nxd4 Bd7 12. f3 Nc6 13. Nxc6 Bxc6 $13 14. Be2 f5 $13 {with an unclear
+position in Atalik-Kotronias, Mangalia 1992.}) 8. e3 e5 9. cxd5 {
+Characteristically Kasparov heads for the massive complications of the main
+line.} ({Should White wish to avoid this, he could try} 9. f3 $5 {which hasn't
+been seen very much, but may lead to a small edge for White, e.g.} Nf6 ({or} 
+9... Qh4+ 10. g3 Nxg3 11. Qf2 $1 Nf5 12. cxd5 {and Black is struggling.}) 10.
+dxe5 Nxe5 11. cxd5 Qxd5 12. e4) 9... Qxd5 10. Bc4 {The next few moves are
+virtually all forced.} Qa5+ 11. b4 $1 Nxb4 12. Qxe4 Nc2+ 13. Ke2 Qe1+ 14. Kf3
+Nxa1 15. Bb2 {Let's pause for a breather and take stock of the situation.
+Black is the exchange up, while White will find it difficult to develop his
+remaining knight without losing the rook on h1. On the other hand, White's
+queen and bishops are poised for attack and the Black knight on a1 is right
+out of play. Not many openings could reach such a crazy position after only 15
+moves.} O-O 16. Kg3 $1 {Preparing a possible rook sacrifice with Nf3, ...Qxh1,
+Ng5, while also giving White the opportunity to continue with h2-h4 followed
+by Kh2 etc.} (16. Nh3 $4 {loses simply to} Qxh1 17. Ng5 Qxh2 $1 {- this is why
+White needs to play Kg3 first.}) 16... h6 $1 {It's dangerous to make
+conclusions in such a wild line, but the general consensus is that this move
+is Black's best try. Others:} (16... Kh8 17. dxe5 $1 {looks very good for
+White - see Atalik,S-Sax,G/Szeged 1997 in ChessPub (ECO code E37).}) ({
+Following} 16... Bd7 {White completes his "take my rooks" approach with} 17.
+Nf3 $1 Qxh1 18. Ng5 g6 19. Qxe5 {(the threat of Qf6 and d5 looms over Black)}
+Rae8 20. Qf6 Rxe3+ $1 21. fxe3 Qe1+ 22. Kf3 Qd1+ {This has been played more
+than once, but instead of moving his king, allowing perpetual check, I think
+White should play} 23. Be2 $1 {as in the game J.Watson-Roberts, Scotland 1996.
+After} Bg4+ 24. Kf4 Qc2 {(Black must do something about d5)} 25. d5 Qf5+ 26.
+Qxf5 Bxf5 27. Bxa1 {White has a very pleasant endgame.}) 17. h4 Re8 $5 ({
+Another critical move here is} 17... Qd2 18. Nf3 ({Richard Palliser suggests} 
+18. Bxa1 $5 Qc1 19. Bd3 g6 {, which is certainly worth further investigation
+for example,} 20. h5 Bf5 21. Qxe5 Bxd3 22. d5 f6 23. Qe6+ Kg7 24. hxg6) 18...
+Qxb2 19. Ng5 Qc2 $1 20. Bd3 Bf5 $1 21. Qxf5 g6 22. Qe4 Qc6 23. Qxc6 bxc6 {
+when a draw was agreed in the game Sapundzhiev-Gysi, correspondence 1999,
+although Bogdan Lalic prefers Black in the final position. Still, after say}
+24. Nf3 Nb3 25. Nxe5 c5 26. Rb1 Nd2 27. Rb2 c4 28. Rxd2 cxd3 29. Nc6 $1 {
+White has good compensation for the slight material deficit - it is very
+difficult for Black to activate his rooks.}) 18. Kh2 Qxf2 19. Bxa1 Bf5 20. Qxb7
+$1 (20. Nh3 {had been played before, but} Bxh3 $1 {is a good reply:} 21. Rf1 (
+21. Kxh3 $2 exd4) 21... Bxg2 $1 22. Qxg2 (22. Rxf2 Bxe4 23. Bxf7+ Kh7 24. Bxe8
+Rxe8 {- Palliser - leaves Black better in the endgame}) 22... Qxh4+ 23. Kg1 Re7
+24. Bb3 Rd8 25. dxe5 Qg5 {and Black's extra material gives him a plus.}) 20...
+exd4 21. Nf3 $1 (21. Bxd4 Re4 $1 (21... Be4 $5 22. Qb2 Qxb2 23. Bxb2 Rad8 {
+- Palliser - leads to an unclear ending note that} 24. Bd4 $2 {can be answered
+by} c5 $1 25. Bxc5 $4 Rc8 $1) 22. Qxa8+ Kh7 23. Nf3 Rg4 $1 24. Bf1 Rg3 $1 25.
+Ng1 Rg4 26. Nf3 {is a cute draw by repetition pointed out by Mikhail Golubev.})
+21... Be4 22. Qxc7 ({If White is insistent on playing for a win then Golubev's
+suggestion of} 22. Qb2 $5 Qxb2 23. Bxb2 dxe3 24. Ne5 Re7 25. Rf1 {is worth a
+try, but of course it is risky.}) 22... Bxf3 23. Qxf7+ Kh8 24. Qxf3 Qxh4+ 25.
+Kg1 ({The last chance to avoid a draw is with} 25. Qh3 {, but following} Qxh3+
+26. gxh3 Rac8 27. Bd3 dxe3 28. Re1 Rcd8 29. Be2 Rd2 30. Kg3 Ra2 31. Bb5 Re7 {
+Black is not going to lose.}) 25... Qe1+ 26. Bf1 $5 {Setting one final trap.}
+Qxa1 $1 ({And not} 26... Qxe3+ $2 27. Qxe3 dxe3 ({or} 27... Rxe3 28. Rxh6+ $1)
+28. Rxh6+ Kg8 29. Bc4+ Kf8 30. Rh3) 27. Rxh6+ $1 gxh6 28. Qf6+ {It turns out
+that it's White who gives the perpetual. A game of significant theoretical
+importance.} 1/2-1/2
+

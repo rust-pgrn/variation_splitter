@@ -79,7 +79,7 @@ pub fn remove_headers(contents: &mut String, clean_first: bool) {
     let mut buf = String::new();
     if clean_first {
         let mut lines = contents.lines();
-        for _i in 0..=19 {
+        for _i in 0..=23 {
             lines.next();
         }
         *contents = lines.collect();
@@ -89,7 +89,7 @@ pub fn remove_headers(contents: &mut String, clean_first: bool) {
     for line in contents.lines() {
         if line.ends_with('*') {
             buf.push_str(&format!("{}\n", line));
-            counter = 19;
+            counter = 14;
         }
         if counter <= 0 {
             buf.push_str(&format!("{}\n", line));
@@ -187,7 +187,7 @@ pub fn split(config: &Config) -> Vec<Vec<String>> {
     for (len, pli) in contents.split(' ').enumerate() {
         if pli.contains('}') {
             data.in_comment = false;
-            if pli.contains(')') {
+            if pli.ends_with(')') {
                 data.log(pli, len, false, "Moving Back Variation".to_string());
                 data.subtract_i(pli);
                 data.log(pli, len, true, "".to_string());
@@ -221,6 +221,7 @@ pub fn split(config: &Config) -> Vec<Vec<String>> {
         } else if pli.contains('*') {
             data.variations.push(Vec::new());
             data.i = data.variations.len() - 1;
+            data.log(pli, len, false, "New Variation ".to_string());
         } else {
             data.variations[data.i].push(pli.to_string());
             data.log(pli, len, false, format!("adding {}", pli));

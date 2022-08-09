@@ -1,0 +1,246 @@
+﻿[Event "?"]
+[Site "S&S: The Nimzo-Indian"]
+[Date "????.??.??"]
+[Round "?"]
+[White "4.Nf3"]
+[Black "?"]
+[Result "*"]
+[PlyCount "8"]
+[SourceTitle "S&S: The Nimzo-Indian"]
+[Source "Chessable.com"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Nf3 d5 *
+
+[Event "?"]
+[Site "S&S: The Nimzo-Indian"]
+[Date "????.??.??"]
+[Round "?"]
+[White "4.Bd2"]
+[Black "?"]
+[Result "*"]
+[ECO "E52"]
+[PlyCount "22"]
+[SourceTitle "S&S: The Nimzo-Indian"]
+[Source "Chessable.com"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Bd2 O-O 5. Nf3 d5 6. e3 b6 7. cxd5 exd5 8. Bd3
+Bb7 9. O-O Nbd7 10. Rc1 Be7 11. Be1 c5 *
+
+[Event "S&S: The Nimzo-Indian"]
+[Site "S&S: The Nimzo-Indian"]
+[Date "????.??.??"]
+[Round "?"]
+[White "4.Qb3"]
+[Black "?"]
+[Result "*"]
+[ECO "E23"]
+[Annotator "John Emms"]
+[PlyCount "18"]
+[SourceTitle "S&S: The Nimzo-Indian"]
+[Source "Chessable.com"]
+
+{[%evp 0,18,26,26,26,6,6,4,5,-10,-7,-11,-4,-3,-29,-30,-34,-24,-6,-28,-19]} 1.
+d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qb3 c5 5. dxc5 Nc6 6. Nf3 (6. Bg5 h6 7. Bxf6 Qxf6
+8. Nf3 b6 $5 (8... Bxc3+ 9. Qxc3 Qxc3+ 10. bxc3 b6 11. cxb6 axb6 12. e4 Ra4))
+6... Ne4 7. Bd2 Nxd2 8. Nxd2 Bxc5 9. e3 O-O *
+
+[Event "S&S: The Nimzo-Indian"]
+[Site "S&S: The Nimzo-Indian"]
+[Date "????.??.??"]
+[Round "?"]
+[White "4.Bg5 with 5.e3"]
+[Black "?"]
+[Result "*"]
+[ECO "E30"]
+[Annotator "A"]
+[PlyCount "18"]
+[SourceTitle "S&S: The Nimzo-Indian"]
+[Source "Chessable.com"]
+
+{[%evp 0,18,30,23,23,19,18,26,34,-10,2,0,-78,-64,-46,-20,-6,-6,-6,6,10]} 1. d4
+Nf6 2. c4 e6 3. Nc3 Bb4 4. Bg5 c5 5. e3 (5. d5 d6 6. e3 exd5 7. cxd5 Nbd7) 5...
+Qa5 6. Nge2 (6. Bxf6 Bxc3+ 7. bxc3 Qxc3+ 8. Ke2 Qb2+ 9. Ke1 gxf6) 6... Ne4 7.
+Qd3 d5 8. Bf4 cxd4 9. exd4 Nc6 *
+
+[Event "Short & Sweet: The Nimzo-Indian"]
+[Site "S&S: The Nimzo-Indian"]
+[Date "????.??.??"]
+[Round "?"]
+[White "4.a3 with 9.Bg5"]
+[Black "?"]
+[Result "*"]
+[ECO "E27"]
+[PlyCount "28"]
+[SourceTitle "S&S: The Nimzo-Indian"]
+[Source "Chessable.com"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. a3 Bxc3+ 5. bxc3 O-O 6. f3 Nc6 7. e4 d6 8. Bd3
+b6 9. Bg5 h6 10. Bh4 e5 11. Ne2 Na5 12. O-O g5 13. Bf2 Nh5 14. Qc2 Ba6 *
+
+[Event "?"]
+[Site "S&S: The Nimzo-Indian"]
+[Date "????.??.??"]
+[Round "?"]
+[White "4.a3 with 9.Ne2"]
+[Black "?"]
+[Result "*"]
+[ECO "E27"]
+[PlyCount "26"]
+[SourceTitle "S&S: The Nimzo-Indian"]
+[Source "Chessable.com"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. a3 Bxc3+ 5. bxc3 O-O 6. f3 Nc6 7. e4 d6 8. Bd3
+b6 9. Ne2 Nd7 10. O-O Na5 11. Ng3 Ba6 12. Qe2 c5 13. Be3 Rc8 *
+
+[Event "?"]
+[Site "S&S: The Nimzo-Indian"]
+[Date "????.??.??"]
+[Round "?"]
+[White "4.f3 with 9.e4"]
+[Black "?"]
+[Result "*"]
+[ECO "E25"]
+[PlyCount "28"]
+[SourceTitle "S&S: The Nimzo-Indian"]
+[Source "Chessable.com"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. f3 d5 5. a3 Bxc3+ 6. bxc3 c5 7. cxd5 Nxd5 8.
+dxc5 f5 9. e4 fxe4 10. Qc2 Qh4+ 11. g3 Qh5 12. Be2 Nf6 13. fxe4 Qxc5 14. Rb1 a6
+*
+
+[Event "?"]
+[Site "S&S: The Nimzo-Indian"]
+[Date "????.??.??"]
+[Round "?"]
+[White "4.f3 with 9.Nh3"]
+[Black "?"]
+[Result "*"]
+[ECO "E25"]
+[PlyCount "30"]
+[SourceTitle "S&S: The Nimzo-Indian"]
+[Source "Chessable.com"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. f3 d5 5. a3 Bxc3+ 6. bxc3 c5 7. cxd5 Nxd5 8.
+dxc5 f5 9. Nh3 Qa5 10. Nf4 Nc6 11. Nxd5 exd5 12. Qd3 Qxc5 13. Bf4 O-O 14. e3
+Be6 15. Be2 Rac8 *
+
+[Event "S&S: The Nimzo-Indian"]
+[Site "S&S: The Nimzo-Indian"]
+[Date "????.??.??"]
+[Round "?"]
+[White "4.e3 with 5.Nge2 "]
+[Black "?"]
+[Result "*"]
+[ECO "E46"]
+[Annotator "A"]
+[PlyCount "32"]
+[SourceTitle "S&S: The Nimzo-Indian"]
+[Source "Chessable.com"]
+
+{[%evp 0,32,31,32,28,7,7,15,25,20,24,-2,-2,3,17,10,23,14,24,9,30,28,32,5,6,10,
+10,9,44,36,32,22,18,18,30]} 1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 O-O 5. Nge2 d5
+6. a3 Be7 7. cxd5 exd5 8. Nf4 (8. g3 Re8 9. Bg2 c6 10. O-O Nbd7 11. f3 c5 12.
+Nf4 cxd4 13. Ncxd5 Nxd5 14. Nxd5 dxe3 15. Bxe3 Nf6 16. Nxe7+ Qxe7) 8... c6 9.
+Bd3 Na6 10. O-O Nc7 11. f3 Ne6 12. Nxe6 Bxe6 13. Bd2 Ne8 14. Qc2 f5 15. Ne2 Nd6
+16. Nf4 Qd7 *
+
+[Event "?"]
+[Site "S&S: The Nimzo-Indian"]
+[Date "????.??.??"]
+[Round "?"]
+[White "4.e3 with 5.a3"]
+[Black "?"]
+[Result "*"]
+[ECO "E40"]
+[PlyCount "26"]
+[SourceTitle "S&S: The Nimzo-Indian"]
+[Source "Chessable.com"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 O-O 5. a3 Bxc3+ 6. bxc3 Nc6 7. Bd3 e5 8.
+Ne2 e4 9. Bb1 b6 10. Ng3 Ba6 11. Nxe4 Nxe4 12. Bxe4 Bxc4 13. Bd3 Na5 *
+
+[Event "?"]
+[Site "S&S: The Nimzo-Indian"]
+[Date "????.??.??"]
+[Round "?"]
+[White "4.e3 with 5.Bd3"]
+[Black "?"]
+[Result "*"]
+[ECO "E52"]
+[PlyCount "30"]
+[SourceTitle "S&S: The Nimzo-Indian"]
+[Source "Chessable.com"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 O-O 5. Bd3 d5 6. Nf3 b6 7. O-O Ba6 8. cxd5
+exd5 9. Bxa6 Nxa6 10. Qa4 Qc8 11. Bd2 Re8 12. Rac1 Bf8 13. Rfd1 Qb7 14. Be1
+Rac8 15. Ne5 c6 *
+
+[Event "Short & Sweet: The Nimzo-Indian"]
+[Site "S&S: The Nimzo-Indian"]
+[Date "????.??.??"]
+[Round "?"]
+[White "4.Qc2 with 5.e4"]
+[Black "?"]
+[Result "*"]
+[ECO "E32"]
+[PlyCount "36"]
+[SourceTitle "S&S: The Nimzo-Indian"]
+[Source "Chessable.com"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 O-O 5. e4 d5 6. e5 Ne4 7. Bd3 c5 8. Nf3
+cxd4 9. Nxd4 Nd7 10. Bf4 Ndc5 11. O-O Bxc3 12. bxc3 Bd7 13. Be2 Na4 14. cxd5
+exd5 15. c4 Rc8 16. Rac1 Nac3 17. cxd5 Qa5 18. Bf3 Qxd5 *
+
+[Event "Short & Sweet: The Nimzo-Indian"]
+[Site "S&S: The Nimzo-Indian"]
+[Date "????.??.??"]
+[Round "?"]
+[White "4.Qc2 with 5.Bg5"]
+[Black "?"]
+[Result "*"]
+[ECO "E39"]
+[PlyCount "26"]
+[SourceTitle "S&S: The Nimzo-Indian"]
+[Source "Chessable.com"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 O-O 5. Bg5 c5 6. dxc5 Na6 7. a3 Bxc3+ 8.
+Qxc3 Nxc5 9. Bxf6 Qxf6 10. Qxf6 gxf6 11. b4 Na4 12. e3 b6 13. Nf3 Ba6 *
+
+[Event "Short & Sweet: The Nimzo-Indian"]
+[Site "S&S: The Nimzo-Indian"]
+[Date "????.??.??"]
+[Round "?"]
+[White "4.Qc2 with 5.Nf3"]
+[Black "?"]
+[Result "*"]
+[ECO "E39"]
+[PlyCount "28"]
+[SourceTitle "S&S: The Nimzo-Indian"]
+[Source "Chessable.com"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 O-O 5. Nf3 c5 6. dxc5 Na6 7. g3 Nxc5 8.
+Bg2 Nce4 9. O-O Nxc3 10. bxc3 Be7 11. e4 d6 12. e5 dxe5 13. Nxe5 Qc7 14. Qe2
+Bd6 *
+
+[Event "S&S: The Nimzo-Indian"]
+[Site "S&S: The Nimzo-Indian"]
+[Date "????.??.??"]
+[Round "?"]
+[White "4.Qc2 with 5.a3 "]
+[Black "?"]
+[Result "*"]
+[ECO "E36"]
+[Annotator "A"]
+[PlyCount "28"]
+[SourceTitle "S&S: The Nimzo-Indian"]
+[Source "Chessable.com"]
+
+{[%evp 0,28,26,25,32,9,9,6,29,-8,7,-3,1,-2,7,-34,-8,-56,-56,-56,-19,-19,-8,-4,
+-9,-9,-19,-19,-11,-11,-11]} 1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 O-O 5. a3
+Bxc3+ 6. Qxc3 d5 7. cxd5 (7. Bg5 dxc4 8. Qxc4 b6 9. Rd1 Ba6 10. Qa4 h6 11. Bh4
+Qe7 12. Nf3 Rd8 13. e3 Bxf1 14. Rxf1 Nbd7) (7. e3 b6 8. Nf3 Bb7 9. Be2 Ne4 10.
+Qc2 dxc4 11. Bxc4 c5) (7. Nf3 dxc4 8. Qxc4 b6 9. Bf4 (9. Bg5 Ba6 10. Qa4 c5 11.
+dxc5 bxc5 12. Rd1 Qb6 13. Bxf6 gxf6 14. Rd2 Nc6 15. Qg4+ Kh8) 9... Ba6 10. Qxc7
+Qd5 11. Qc2 Rc8 12. Qb1 Qb3 13. Nd2 Qa4) 7... Ne4 8. Qc2 exd5 9. Bf4 Nc6 10. e3
+Re8 11. Nf3 g5 12. Bg3 g4 13. Ne5 Nxe5 14. Bxe5 c5 *
+
