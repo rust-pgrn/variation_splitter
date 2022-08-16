@@ -89,7 +89,7 @@ pub fn remove_headers(contents: &mut String, clean_first: bool) {
     for line in contents.lines() {
         if line.ends_with('*') {
             buf.push_str(&format!("{}\n", line));
-            counter = 14;
+            counter = 11;
         }
         if counter <= 0 {
             buf.push_str(&format!("{}\n", line));
@@ -134,6 +134,12 @@ impl Default for Data {
     }
 }
 impl Data {
+    pub fn add_variation(&mut self, pli: &str) {
+        self.variations
+            .insert(self.i, self.variations[self.i].clone());
+        self.i += 1;
+        self.variations[self.i].pop();
+    }
     pub fn subtract_i(&mut self, pli: &str) {
         let mut after_brace = true;
         if pli.contains('}') {
@@ -144,6 +150,7 @@ impl Data {
                 after_brace = true;
             }
             if c == ')' && after_brace {
+                //fs::write("files/logs.txt", &self.buf).unwrap();
                 self.i -= 1;
             }
         }
@@ -184,6 +191,8 @@ pub fn split(config: &Config) -> Vec<Vec<String>> {
 
     let mut data = Data::default();
 
+    //TODO
+    //check if ( is before { or }
     for (len, pli) in contents.split(' ').enumerate() {
         if pli.contains('}') {
             data.in_comment = false;
@@ -191,12 +200,19 @@ pub fn split(config: &Config) -> Vec<Vec<String>> {
                 data.log(pli, len, false, "Moving Back Variation".to_string());
                 data.subtract_i(pli);
                 data.log(pli, len, true, "".to_string());
+            } else if pli.starts_with('(') {
+                data.add_variation(pli);
+                data.log(pli, len, false, "New Variation ".to_string());
             } else {
                 data.log(pli, len, false, "Nothing".to_string());
             }
         } else if pli.contains('{') | data.in_comment {
             if pli.contains('{') {
                 data.in_comment = true;
+                if pli.starts_with('(') {
+                    data.add_variation(pli);
+                    data.log(pli, len, false, "New Variation ".to_string());
+                }
             }
             data.log(pli, len, false, "Nothing".to_string());
         } else if pli.contains(')') {
@@ -210,11 +226,8 @@ pub fn split(config: &Config) -> Vec<Vec<String>> {
             data.log(pli, len, false, action);
             data.subtract_i(pli);
             data.log(pli, len, true, String::new());
-        } else if pli.contains('(') {
-            data.variations
-                .insert(data.i, data.variations[data.i].clone());
-            data.i += 1;
-            data.variations[data.i].pop();
+        } else if pli.starts_with('(') {
+            data.add_variation(pli);
             data.log(pli, len, false, "New Variation ".to_string());
         } else if pli.contains('$') | pli.contains("...") {
             data.log(pli, len, false, "Nothing".to_string());
