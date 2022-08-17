@@ -1,0 +1,10 @@
+﻿[Event "?"]
+[White "Enter New Game"]
+[Black "?"]
+[Result "*"]
+[Annotator "Noor"]
+[FEN "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1"]
+[SourceVersionDate "2022.08.17"]
+
+{[#]} 1... Nf6 2. c4 e6 3. Nc3 Bb4 4. a3 Bxc3+ 5. Bd2 *
+

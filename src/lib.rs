@@ -89,7 +89,7 @@ pub fn remove_headers(contents: &mut String, clean_first: bool) {
     for line in contents.lines() {
         if line.ends_with('*') {
             buf.push_str(&format!("{}\n", line));
-            counter = 11;
+            counter = 13;
         }
         if counter <= 0 {
             buf.push_str(&format!("{}\n", line));
@@ -187,12 +187,15 @@ pub fn split(config: &Config) -> Vec<Vec<String>> {
     remove_headers(&mut contents, config.clean_first);
 
     clean(&mut contents);
+
+    let black = matches!(config.color, Color::Black);
+    let mut color_counter = 0;
     //-----------------------------------//
 
     let mut data = Data::default();
 
     //TODO
-    //check if ( is before { or }
+    //Add color
     for (len, pli) in contents.split(' ').enumerate() {
         if pli.contains('}') {
             data.in_comment = false;
@@ -215,8 +218,17 @@ pub fn split(config: &Config) -> Vec<Vec<String>> {
                 }
             }
             data.log(pli, len, false, "Nothing".to_string());
+        } else if black && color_counter < 2 {
+            if color_counter == 0 {
+                data.variations[data.i].push("{[#]}".to_string());
+                data.log(pli, len, false, "Adding: {[#]}".to_string());
+            } else {
+                data.variations[data.i].push("1...".to_string());
+                data.log(pli, len, false, "Adding: 1...".to_string());
+            }
+            color_counter += 1;
         } else if pli.contains(')') {
-            let mut action;
+            let action;
             if &pli[0..1] != ")" && !pli.contains('$') {
                 data.variations[data.i].push(pli.replace(')', ""));
                 action = format!("Adding {} & moving Back Variation", pli);
@@ -234,6 +246,7 @@ pub fn split(config: &Config) -> Vec<Vec<String>> {
         } else if pli.contains('*') {
             data.variations.push(Vec::new());
             data.i = data.variations.len() - 1;
+            color_counter = 0;
             data.log(pli, len, false, "New Variation ".to_string());
         } else {
             data.variations[data.i].push(pli.to_string());
@@ -262,6 +275,7 @@ pub fn convert(v: &Vec<Vec<String>>) -> String {
 [Black \"?\"]
 [Result \"*\"]
 [Annotator \"Noor\"]
+[FEN \"rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1\"]
 [PlyCount \"?\"]
 [SourceVersionDate \"2022.07.13\"]\n
 ",
