@@ -196,6 +196,8 @@ pub fn split(config: &Config) -> Vec<Vec<String>> {
 
     //TODO
     //Add color
+    //data.variations[data.i].push("{[#]}".to_string());
+    //data.variations[data.i].push("1...".to_string());
     for (len, pli) in contents.split(' ').enumerate() {
         if pli.contains('}') {
             data.in_comment = false;
@@ -267,18 +269,20 @@ pub fn convert(v: &Vec<Vec<String>>) -> String {
     let mut s = String::new();
     for var in v {
         s.push_str(
+            //            "\n[Event \"?\"]
+            //[Site\"?\"]
+            //[Date \"2022.07.13\"]
+            //[Round \"?\"]
+            //[White \"?\"]
+            //[Black \"?\"]
+            //[Result \"*\"]
+            //[Annotator \"Noor\"]
+            //[FEN \"rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1\"]
+            //[PlyCount \"?\"]
+            //[SourceVersionDate \"2022.07.13\"]\n
+            //",
             "\n[Event \"?\"]
-[Site\"?\"]
-[Date \"2022.07.13\"]
-[Round \"?\"]
-[White \"?\"]
-[Black \"?\"]
-[Result \"*\"]
-[Annotator \"Noor\"]
-[FEN \"rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1\"]
-[PlyCount \"?\"]
-[SourceVersionDate \"2022.07.13\"]\n
-",
+[FEN \"rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1\"]\n",
         );
         for pli in var {
             s.push_str(pli);
