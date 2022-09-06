@@ -114,6 +114,8 @@ pub struct Data {
     pub i: usize,
     pub buf: String,
     pub in_comment: bool,
+    black: bool,
+    color_counter: u8,
 }
 impl Default for Data {
     fn default() -> Self {
@@ -125,16 +127,43 @@ impl Default for Data {
         let buf = String::new();
 
         let in_comment = false;
+
+        let black = false;
+
+        let color_counter = 0;
         Data {
             variations,
             i,
             buf,
             in_comment,
+            black,
+            color_counter,
         }
     }
 }
 impl Data {
-    pub fn add_variation(&mut self, pli: &str) {
+    pub fn new(black: bool) -> Data {
+        let mut variations: Vec<Vec<String>> = Vec::new();
+        let i = variations.len();
+
+        variations.push(Vec::new());
+
+        let buf = String::new();
+
+        let in_comment = false;
+
+        let color_counter = 0;
+
+        Data {
+            variations,
+            i,
+            buf,
+            in_comment,
+            black,
+            color_counter,
+        }
+    }
+    pub fn add_variation(&mut self) {
         self.variations
             .insert(self.i, self.variations[self.i].clone());
         self.i += 1;
@@ -170,6 +199,8 @@ impl Data {
             self.buf.push_str(&format!("Pli Number: {}\n", len + 1));
             self.buf
                 .push_str(&format!("In Comment: {}\n", self.in_comment));
+            self.buf
+                .push_str(&format!("Color Counter: {}\n", self.color_counter));
             self.buf.push_str("\n\n")
         } else {
             self.buf
@@ -189,81 +220,83 @@ pub fn split(config: &Config) -> Vec<Vec<String>> {
     clean(&mut contents);
 
     let black = matches!(config.color, Color::Black);
-    let mut color_counter = 0;
     //-----------------------------------//
 
-    let mut data = Data::default();
+    let mut d = Data::new(black);
 
     //TODO
     //Add color
-    //data.variations[data.i].push("{[#]}".to_string());
-    //data.variations[data.i].push("1...".to_string());
+    //d.variations[d.i].push("{[#]}".to_string());
+    //d.variations[d.i].push("1...".to_string());
     for (len, pli) in contents.split(' ').enumerate() {
         if pli.contains('}') {
-            data.in_comment = false;
+            d.in_comment = false;
             if pli.ends_with(')') {
-                data.log(pli, len, false, "Moving Back Variation".to_string());
-                data.subtract_i(pli);
-                data.log(pli, len, true, "".to_string());
+                d.log(pli, len, false, "Moving Back Variation".to_string());
+                d.subtract_i(pli);
+                d.log(pli, len, true, "".to_string());
             } else if pli.starts_with('(') {
-                data.add_variation(pli);
-                data.log(pli, len, false, "New Variation ".to_string());
+                d.add_variation();
+                d.log(pli, len, false, "New Variation ".to_string());
             } else {
-                data.log(pli, len, false, "Nothing".to_string());
+                d.log(pli, len, false, "Nothing".to_string());
             }
-        } else if pli.contains('{') | data.in_comment {
+        } else if pli.contains('{') | d.in_comment {
             if pli.contains('{') {
-                data.in_comment = true;
+                d.in_comment = true;
                 if pli.starts_with('(') {
-                    data.add_variation(pli);
-                    data.log(pli, len, false, "New Variation ".to_string());
+                    d.add_variation();
+                    d.log(pli, len, false, "New Variation ".to_string());
                 }
             }
-            data.log(pli, len, false, "Nothing".to_string());
-        } else if black && color_counter < 2 {
-            if color_counter == 0 {
-                data.variations[data.i].push("{[#]}".to_string());
-                data.log(pli, len, false, "Adding: {[#]}".to_string());
-            } else {
-                data.variations[data.i].push("1...".to_string());
-                data.log(pli, len, false, "Adding: 1...".to_string());
+            d.log(pli, len, false, "Nothing".to_string());
+        } else if d.black && d.color_counter < 2 {
+            if !pli.is_empty() {
+                if d.color_counter == 0 {
+                    d.color_counter += 1;
+                    d.variations[d.i].push("{[#]}".to_string());
+                    d.log(pli, len, false, "Adding: {[#]}".to_string());
+                } else {
+                    d.color_counter += 1;
+                    d.variations[d.i].push("1...".to_string());
+                    d.log(pli, len, false, "Adding: 1...".to_string());
+                }
             }
-            color_counter += 1;
         } else if pli.contains(')') {
             let action;
             if &pli[0..1] != ")" && !pli.contains('$') {
-                data.variations[data.i].push(pli.replace(')', ""));
+                d.variations[d.i].push(pli.replace(')', ""));
                 action = format!("Adding {} & moving Back Variation", pli);
             } else {
                 action = "Moving Back Variation".to_string();
             };
-            data.log(pli, len, false, action);
-            data.subtract_i(pli);
-            data.log(pli, len, true, String::new());
+            d.log(pli, len, false, action);
+            d.subtract_i(pli);
+            d.log(pli, len, true, String::new());
         } else if pli.starts_with('(') {
-            data.add_variation(pli);
-            data.log(pli, len, false, "New Variation ".to_string());
+            d.add_variation();
+            d.log(pli, len, false, "New Variation ".to_string());
         } else if pli.contains('$') | pli.contains("...") {
-            data.log(pli, len, false, "Nothing".to_string());
+            d.log(pli, len, false, "Nothing".to_string());
         } else if pli.contains('*') {
-            data.variations.push(Vec::new());
-            data.i = data.variations.len() - 1;
-            color_counter = 0;
-            data.log(pli, len, false, "New Variation ".to_string());
+            d.variations.push(Vec::new());
+            d.i = d.variations.len() - 1;
+            d.color_counter = 0;
+            d.log(pli, len, false, "New Variation ".to_string());
         } else {
-            data.variations[data.i].push(pli.to_string());
-            data.log(pli, len, false, format!("adding {}", pli));
+            d.variations[d.i].push(pli.to_string());
+            d.log(pli, len, false, format!("adding {}", pli));
         }
     }
 
     if let Order::Side = config.order {
-        data.variations.reverse();
-        data.buf.push_str("Reversing order");
+        d.variations.reverse();
+        d.buf.push_str("Reversing order");
     };
 
-    fs::write(config.logs_file, data.buf).unwrap();
+    fs::write(config.logs_file, d.buf).unwrap();
 
-    data.variations
+    d.variations
 }
 pub fn convert(v: &Vec<Vec<String>>) -> String {
     let mut s = String::new();
