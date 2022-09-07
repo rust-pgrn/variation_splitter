@@ -77,24 +77,13 @@ pub fn contents(filename: &str) -> String {
 }
 pub fn remove_headers(contents: &mut String, clean_first: bool) {
     let mut buf = String::new();
-    if clean_first {
-        let mut lines = contents.lines();
-        for _i in 0..=23 {
-            lines.next();
-        }
-        *contents = lines.collect();
-    }
 
     let mut counter = 0;
     for line in contents.lines() {
-        if line.ends_with('*') {
-            buf.push_str(&format!("{}\n", line));
-            counter = 13;
-        }
-        if counter <= 0 {
+        if line.starts_with('[') && line.ends_with(']') && line.contains("\"") {
+        } else {
             buf.push_str(&format!("{}\n", line));
         }
-        counter -= 1;
     }
     *contents = buf;
 }
